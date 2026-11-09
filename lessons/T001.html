@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="もっと詳しく知りたい第1回。色の三要素と色相環、三原色と混色、スーラの点描、西洋絵画の支持体・色材・描く道具を作例とともに学ぶ。">
+<title>色彩と西洋絵画の画材｜もっと詳しく知りたい</title><link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="../css/theme.css"><script src="../js/theme-init.js"></script><script defer src="../js/theme.js"></script><script defer src="../js/script.js"></script><style id="lesson-feature-styles">
+.contents .toc-group-title{display:block;color:var(--ink);font-weight:bold;font-size:12px;margin:16px 0 5px;overflow-wrap:anywhere}
+.contents .toc-group>ol{display:block;padding-left:12px}
+.chapter-group-heading{font-size:29px;color:var(--ink);border-bottom:1px solid var(--line);padding:28px 0 12px;scroll-margin-top:28px;overflow-wrap:anywhere}
+.chapter-heading h3{font-size:27px;line-height:1.7;letter-spacing:.03em}
+:root{--key-marker:#fff0a0}html[data-theme=dark]{--key-marker:#6b5d1f}
+.lesson-text .key-term{font-weight:700;background:linear-gradient(transparent 58%,var(--key-marker) 58%)}
+.lesson-summary{border-top:1px solid var(--line);margin-top:30px;padding-top:28px;overflow-wrap:anywhere}
+.lesson-summary h2{font-size:25px}.lesson-summary ul{padding-left:1.5em;line-height:2.1}
+@media(max-width:720px){.contents ol:has(>.toc-group){display:block}.chapter-heading h3{font-size:24px}.chapter-group-heading{font-size:26px}}
+</style><style id="lesson-quiz-styles">
+.lesson-quiz{border-top:1px solid var(--line);margin-top:30px;padding-top:28px;overflow-wrap:anywhere}
+.lesson-quiz>h2{font-size:25px;margin-bottom:6px}
+.quiz-lead{font-size:12px;color:var(--muted);line-height:1.9;margin-bottom:8px}
+.quiz-score{font-size:13px;margin:4px 0 0}
+.quiz-score button{font-size:11px;margin-left:10px;border:1px solid var(--line);background:var(--paper);color:var(--muted);padding:2px 8px;cursor:pointer}
+.quiz-type{font-family:inherit;font-weight:normal;font-size:13px;color:var(--muted);letter-spacing:.06em;margin:30px 0 4px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.quiz-type b{color:var(--ink);font-size:15px;margin-right:8px}
+.quiz-item{padding:18px 0;border-bottom:1px dashed var(--line)}
+.quiz-q{font-size:15px;line-height:2}
+.quiz-q .no{font-weight:700;margin-right:8px;color:var(--accent)}
+.quiz-item details{margin-top:8px;font-size:14px;line-height:1.9}
+.quiz-item summary{cursor:pointer;color:var(--accent);font-size:13px;width:fit-content}
+.quiz-answer{margin-top:6px;padding:10px 14px;background:var(--soft)}
+.quiz-answer strong{font-size:15px}
+.quiz-ref{font-size:11px;text-decoration:none;display:inline-block;margin-top:4px}
+.quiz-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+.quiz-choices button{font:inherit;font-size:14px;line-height:1.6;text-align:left;border:1px solid var(--line);background:var(--white);color:var(--ink);padding:9px 12px;cursor:pointer;overflow-wrap:anywhere}
+.quiz-choices button:hover:not(:disabled){border-color:var(--accent)}
+.quiz-choices button:disabled{cursor:default}
+.quiz-choices button.correct{border-color:#2e7d4f;background:color-mix(in srgb,#2e7d4f 12%,var(--white));font-weight:700}
+.quiz-choices button.wrong{border-color:#b23b3b;background:color-mix(in srgb,#b23b3b 10%,var(--white));text-decoration:line-through}
+.quiz-feedback{display:none;margin-top:10px;padding:10px 14px;background:var(--soft);font-size:14px;line-height:1.9}
+.quiz-item.answered .quiz-feedback{display:block}
+.quiz-feedback .verdict{font-weight:700;margin-right:8px}
+.quiz-feedback .ok{color:#2e7d4f}.quiz-feedback .ng{color:#b23b3b}
+html[data-theme=dark] .quiz-feedback .ok{color:#7fd19e}html[data-theme=dark] .quiz-feedback .ng{color:#f08c8c}
+.quiz-figure{display:grid;grid-template-columns:200px minmax(0,1fr);gap:18px;align-items:start}
+.quiz-figure img{width:100%;max-height:220px;object-fit:contain;background:var(--image-bg)}
+@media(max-width:720px){.quiz-choices{grid-template-columns:minmax(0,1fr)}.quiz-figure{grid-template-columns:minmax(0,1fr)}.quiz-figure img{max-height:260px}}
+</style><style id="lesson-diagram-styles">
+.lesson-diagram{margin:0 0 34px;padding:22px 22px 16px;background:var(--white);border:1px solid var(--line);overflow-wrap:anywhere}
+.lesson-diagram>h2{font-size:22px;margin:0 0 18px}
+.dg-label{font-size:11px;letter-spacing:.12em;color:var(--muted);margin:0 0 10px}
+.dg-steps{list-style:none;margin:0 0 26px;padding:0;display:grid;grid-template-columns:repeat(var(--dg-steps),minmax(0,1fr));gap:26px}
+.dg-step{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;font-size:12px;line-height:1.55;color:var(--muted)}
+.dg-step:not(:last-child)::after{content:"";position:absolute;right:-21px;top:58px;width:16px;height:16px;background:var(--accent);clip-path:polygon(0 15%,55% 15%,55% 0,100% 50%,55% 100%,55% 85%,0 85%)}
+.dg-step.goal{border:2px solid var(--accent);background:color-mix(in srgb,var(--accent) 6%,var(--paper));padding:6px 4px 8px}
+.dg-year{font-size:13px;font-weight:700;color:var(--accent);margin-bottom:6px}
+.dg-visual{display:flex;justify-content:center;align-items:center;gap:4px;height:84px;margin-bottom:6px}
+.dg-visual img{width:72px;height:72px;border-radius:50%;object-fit:cover;object-position:50% 18%;border:2px solid var(--line);background:var(--image-bg)}
+.dg-visual img.lead{width:80px;height:80px;border-color:var(--accent)}
+.dg-visual.pair img{width:60px;height:60px}
+.dg-visual img.work{border-radius:0;width:108px;height:72px;object-position:50% 50%}
+.dg-steps[style*="--dg-steps:5"] .dg-visual.pair img.work{width:60px;height:60px}
+.dg-visual{max-width:100%}.dg-visual img{min-width:0;flex-shrink:1}
+.dg-step b{display:block;color:var(--ink);font-size:14px;margin-bottom:2px}
+.dg-step a{color:inherit;text-decoration:none}
+.dg-step a:hover b{color:var(--accent)}
+.dg-compare{display:grid;grid-template-columns:auto minmax(0,1fr) 20px minmax(0,1.2fr);border-top:1px solid var(--line);font-size:14px;line-height:1.6}
+.dg-compare>*{padding:9px 8px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px}
+.dg-compare .head{font-size:11px;letter-spacing:.1em;color:var(--muted);padding-top:6px;padding-bottom:6px}
+.dg-compare .row-label{font-size:12px;font-weight:700;color:var(--muted);white-space:nowrap}
+.dg-compare .old{color:var(--muted)}
+.dg-compare .arrow{color:var(--accent);justify-content:center;padding-left:0;padding-right:0}
+.dg-compare .new{font-weight:700;color:var(--ink);background:color-mix(in srgb,var(--accent) 6%,transparent)}
+.dg-compare .new a{color:inherit;text-decoration:none}
+.dg-compare .new a:hover{color:var(--accent)}
+.dg-compare small{font-weight:normal;color:var(--muted);font-size:12px}
+.dg-compare svg{flex:none;width:34px;height:22px;vertical-align:middle;margin-right:8px}
+.dg-compare .old svg{margin-right:0}
+.dg-credits{font-size:11px;color:var(--muted);margin-top:12px}
+.dg-credits summary{cursor:pointer;width:fit-content}
+.dg-credits ul{margin:6px 0 0;padding-left:1.4em;line-height:1.8}
+.lesson-people{margin:0 0 34px;overflow-wrap:anywhere}
+.lesson-people>h2{font-size:22px;margin:0 0 4px}
+.pp-group{font-size:11px;letter-spacing:.12em;color:var(--muted);margin:16px 0 8px}
+.pp-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.pp-card{display:grid;grid-template-columns:52px minmax(0,1fr);grid-template-rows:auto 1fr;gap:2px 10px;align-items:start;height:100%;padding:9px 10px;border:1px solid var(--line);background:var(--white);color:var(--ink);text-decoration:none}
+.pp-card:hover{border-color:var(--accent)}
+.pp-face{grid-row:1/3;align-self:center;width:52px;height:52px;border-radius:50%;object-fit:cover;object-position:50% 18%;border:1px solid var(--line);background:var(--image-bg)}
+span.pp-face{display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;color:var(--muted)}
+.pp-crop{overflow:hidden}
+.pp-crop img{width:100%;height:100%;object-fit:cover;display:block}
+.pp-name{font-size:14px;font-weight:700;line-height:1.45}
+.pp-name small{font-weight:normal;font-size:11px;color:var(--accent);margin-left:6px;white-space:nowrap}
+.pp-text{font-size:12px;color:var(--muted);line-height:1.6}
+.lesson-people .dg-credits{margin-top:10px}
+@media(max-width:720px){
+.pp-list{grid-template-columns:minmax(0,1fr)}
+.lesson-diagram{padding:16px 12px 12px}
+.dg-steps{grid-template-columns:minmax(0,1fr);gap:18px}
+.dg-step:not(:last-child)::after{right:auto;left:52px;top:auto;bottom:-17px;transform:rotate(90deg)}
+.dg-step.goal{padding:8px 6px}
+.dg-step>a{width:100%;display:grid;grid-template-columns:120px minmax(0,1fr);grid-template-areas:"v y" "v d";column-gap:10px;align-items:center;text-align:left}
+.dg-step .dg-visual{grid-area:v;height:auto;margin:0}
+.dg-step .dg-year{grid-area:y;margin:0;align-self:end}
+.dg-step .dg-desc{grid-area:d;align-self:start}
+.dg-visual img,.dg-visual img.lead{width:60px;height:60px}
+.dg-visual.pair img{width:50px;height:50px}
+.dg-visual img.work{width:64px;height:44px}
+.dg-visual.pair img.work+img{width:44px;height:44px}
+.dg-compare{font-size:13px}
+.dg-compare>*{padding:8px 5px}
+.dg-compare svg{display:none}
+}
+</style><style id="lesson-pictogram-styles">
+.pict-figure{margin:22px 0 30px;padding:18px 16px 12px;background:var(--soft);border:1px solid var(--line);border-radius:6px}
+.pict-row{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:center;gap:6px 10px}
+.pict-item{flex:0 1 128px;min-width:92px;text-align:center;color:var(--muted)}
+.pict-icon{width:56px;height:56px;margin:0 auto 6px;color:var(--muted)}
+.pict-icon svg{width:100%;height:100%;display:block}
+.pict-item.is-accent .pict-icon{color:var(--accent)}
+.pict-item.is-small .pict-icon{width:44px;height:44px;margin-top:12px}
+.pict-label{font-size:14px;font-weight:700;color:var(--ink);line-height:1.5}
+.pict-sub{display:block;font-size:11px;line-height:1.6;margin-top:2px}
+.pict-op{align-self:center;font-size:22px;color:var(--muted);padding:0 2px;margin-top:-26px}
+.pict-op.is-arrow{color:var(--accent);font-weight:700}
+.pict-figure figcaption{text-align:center;font-size:12px;color:var(--muted);margin-top:12px;padding-top:8px;border-top:1px dashed var(--line)}
+@media(max-width:520px){.pict-op.is-sep{display:none}.pict-item{flex-basis:84px;min-width:72px}.pict-icon{width:46px;height:46px}.pict-label{font-size:13px}}
+@media print{.pict-figure{break-inside:avoid}}
+</style><style id="tx-styles">
+.tx-figure{margin:22px 0 30px;padding:18px 16px 12px;background:var(--white);border:1px solid var(--line);overflow-wrap:anywhere}
+.tx-figure svg{display:block;width:100%;height:auto;max-width:720px;margin:0 auto;color:var(--ink)}
+.tx-figure svg text{fill:currentColor;font-family:inherit}
+.tx-figure svg .mut{fill:var(--muted)}
+.tx-figure svg .acc{fill:var(--accent)}
+.tx-figure svg .ln{stroke:currentColor;fill:none}
+.tx-figure svg .ln-mut{stroke:var(--muted);fill:none}
+.tx-figure svg .ln-acc{stroke:var(--accent);fill:none}
+.tx-figure svg .bg{fill:var(--soft)}
+.tx-figure svg .pap{fill:var(--paper)}
+.tx-figure figcaption{text-align:center;font-size:12px;color:var(--muted);margin-top:12px;padding-top:8px;border-top:1px dashed var(--line)}
+.tx-figure .tx-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}
+.tx-figure .tx-pair>div>p{text-align:center;font-size:13px;font-weight:700;margin:6px 0 0}
+.tx-table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.7;margin:18px 0 28px}
+.tx-table caption{text-align:left;font-size:12px;color:var(--muted);letter-spacing:.08em;margin-bottom:6px}
+.tx-table th,.tx-table td{border-bottom:1px solid var(--line);padding:8px 8px;text-align:left;vertical-align:top}
+.tx-table thead th{font-size:11px;letter-spacing:.1em;color:var(--muted);font-weight:normal;border-bottom:1px solid var(--ink)}
+.tx-table tbody th{white-space:nowrap;font-weight:700}
+.tx-table a{color:inherit}
+.tx-table small{color:var(--muted)}
+.tx-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tx-note{font-size:13px;line-height:1.9;background:var(--soft);border-left:3px solid var(--accent);padding:10px 14px;margin:18px 0 26px}
+.tx-note b{color:var(--accent)}
+.name-break{margin:18px 0 26px;padding:14px 16px;background:var(--white);border:1px solid var(--line)}
+.name-break p.nb-cat{font-size:11px;letter-spacing:.12em;color:var(--muted);margin:0 0 8px}
+.nb-row{display:flex;flex-wrap:wrap;gap:4px 2px;align-items:flex-start}
+.nb-part{display:flex;flex-direction:column;align-items:center;min-width:2.2em}
+.nb-part b{font-size:22px;letter-spacing:.06em;line-height:1.5;padding:0 6px;border-bottom:3px solid var(--accent)}
+.nb-part:nth-child(2n) b{border-bottom-color:var(--ref-accent)}
+.nb-part span{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.4;text-align:center}
+.swatch-row{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 24px}
+.swatch{display:flex;align-items:center;gap:8px;font-size:13px;border:1px solid var(--line);background:var(--white);padding:6px 10px 6px 6px}
+.swatch i{width:28px;height:28px;border:1px solid var(--line);flex:none}
+.dg-table-wrap{margin-bottom:22px}
+@media(max-width:720px){.tx-figure .tx-pair{grid-template-columns:minmax(0,1fr)}.tx-table{font-size:13px}.tx-table th,.tx-table td{padding:7px 5px}.nb-part b{font-size:19px}}
+@media print{.tx-figure{break-inside:avoid}}
+</style></head>
+<body><a class="skip-link" href="#lesson">本文へ進む</a><div class="reading-progress" aria-hidden="true"></div>
+<header class="site-header"><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">美</span>美術史の読書室</a><div class="header-actions"><a class="header-home" href="../index.html">教材一覧</a><button class="theme-toggle" type="button" aria-pressed="false" aria-label="ダークモードに切り替える" title="ダークモードに切り替える"><svg class="theme-icon-sun" aria-hidden="true" focusable="false"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" />
+</svg><svg class="theme-icon-moon" aria-hidden="true" focusable="false"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+</svg></button></div></header>
+<main><header class="lesson-hero"><p class="eyebrow">もっと詳しく知りたい <span>／</span> 教材 T001</p>
+<h1>色彩と西洋絵画の画材</h1><p class="lesson-subtitle">色の三要素から点描の理屈、支持体・絵具・道具まで</p>
+<div class="hero-meta"><span>原資料 5ページ</span><span>本文 約16分</span><span>11章・14作品</span></div>
+<div class="original-video"><span>原資料</span><span>改訂版 西洋・日本美術史の基本（美術検定テキスト）</span></div>
+</header>
+<div class="lesson-layout"><aside class="contents"><nav aria-label="章の目次"><p class="contents-label">この教材の章</p><ol><li class="toc-group"><span class="toc-group-title">色彩の基本</span><ol><li><a href="#elements"><span>01</span>色の三要素と有彩色・無彩色</a></li><li><a href="#wheel"><span>02</span>色相環と補色</a></li><li><a href="#primaries"><span>03</span>三原色と二つの混色</a></li><li><a href="#seurat"><span>04</span>スーラの点描はカラー印刷と同じ</a></li></ol></li><li class="toc-group"><span class="toc-group-title">西洋絵画の支持体</span><ol><li><a href="#support"><span>05</span>板・漆喰層・キャンヴァス・紙</a></li></ol></li><li class="toc-group"><span class="toc-group-title">色材：顔料と展色剤</span><ol><li><a href="#binder"><span>06</span>顔料と展色剤で絵具が決まる</a></li><li><a href="#oil"><span>07</span>油絵具とチューブの発明</a></li><li><a href="#tempera"><span>08</span>テンペラ絵具</a></li><li><a href="#fresco"><span>09</span>フレスコの色材</a></li><li><a href="#pastel"><span>10</span>アクリル絵具とパステル</a></li></ol></li><li class="toc-group"><span class="toc-group-title">描く道具</span><ol><li><a href="#tools"><span>11</span>筆・ナイフ・ペン</a></li></ol></li></ol></nav><p class="contents-foot">書籍 p.256–260</p></aside>
+<article class="lesson-body" id="lesson"><section class="lesson-diagram" id="diagram" aria-labelledby="diagram-heading">
+<h2 id="diagram-heading">図解：色彩と西洋絵画の画材</h2>
+<p class="dg-label">西洋絵画を形づくる三つの要素</p><ol class="dg-steps" style="--dg-steps:3"><li class="dg-step"><a href="#support"><span class="dg-year">支持体</span><span class="dg-visual pair"><img class="work" src="../images/T001/bruegel.jpg" alt="《雪中の狩人》ブリューゲル" loading="lazy" decoding="async"><img class="work" src="../images/T001/titian.jpg" alt="《ウルビーノのヴィーナス》ティツィアーノ" loading="lazy" decoding="async"></span><span class="dg-desc"><b>何に描くか</b>板・漆喰層・<br>キャンヴァス・紙</span></a></li><li class="dg-step goal"><a href="#binder"><span class="dg-year">色材</span><span class="dg-visual"><img class="work" src="../images/T001/monet.jpg" alt="《印象、日の出》モネ" loading="lazy" decoding="async"></span><span class="dg-desc"><b>何で色を付けるか</b>顔料＋展色剤で<br>絵具の種類が決まる</span></a></li><li class="dg-step"><a href="#tools"><span class="dg-year">描く道具</span><span class="dg-visual"><img class="work" src="../images/T001/vitruvian.jpg" alt="《ウィトルウィウス的人体図》レオナルド・ダ・ヴィンチ" loading="lazy" decoding="async"></span><span class="dg-desc"><b>どう描くか</b>筆・ナイフ・ペン</span></a></li></ol><p class="dg-label">同じ顔料でも、展色剤（つなぎ）が変わると別の絵具になる</p><div class="tx-scroll dg-table-wrap"><table class="tx-table"><thead><tr><th>絵具</th><th>展色剤</th><th>主な作例</th></tr></thead><tbody><tr><th><a href="#fresco">フレスコ</a></th><td>石灰水（顔料を水で溶き、湿った漆喰に描く）</td><td>ラファエロ《アテネの学堂》</td></tr><tr><th><a href="#tempera">卵テンペラ</a></th><td>卵</td><td>チマブーエ《サンタ・トリニタの聖母》</td></tr><tr><th><a href="#tempera">カゼインテンペラ</a></th><td>カゼイン（牛乳のたんぱく質）</td><td>—</td></tr><tr><th><a href="#oil">油絵具</a></th><td>ポピー油・リンシード油などの乾性油</td><td>モネ《印象、日の出》</td></tr><tr><th><a href="#pastel">パステル</a></th><td>アラビアゴム（固着材）</td><td>ラ・トゥール《ポンパドゥール夫人の肖像》</td></tr><tr><th><a href="#pastel">アクリル絵具</a></th><td>アクリル樹脂</td><td>モーリス・ルイス《アルファ・パイ》</td></tr></tbody></table></div><details class="dg-credits"><summary>図版の出典</summary><ul><li>《雪中の狩人》ブリューゲル：<a href="https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">出典</a>（Public domain）</li><li>《ウルビーノのヴィーナス》ティツィアーノ：<a href="https://commons.wikimedia.org/wiki/File:Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">出典</a>（Public domain）</li><li>《印象、日の出》モネ：<a href="https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg" target="_blank" rel="noopener noreferrer">出典</a>（Public domain）</li><li>《ウィトルウィウス的人体図》レオナルド・ダ・ヴィンチ：<a href="https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg" target="_blank" rel="noopener noreferrer">出典</a>（Public domain）</li></ul></details></section>
+<section class="lesson-people" id="people" aria-labelledby="people-heading"><h2 id="people-heading">重要用語</h2><p class="pp-group">色彩</p><ul class="pp-list"><li><a class="pp-card" href="#elements"><span class="pp-face" aria-hidden="true">色</span><span class="pp-name">色相<small>しきそう</small></span><span class="pp-text">赤み・黄みといった色味の違い</span></a></li><li><a class="pp-card" href="#elements"><span class="pp-face" aria-hidden="true">明</span><span class="pp-name">明度<small>めいど</small></span><span class="pp-text">色の明るさの度合い</span></a></li><li><a class="pp-card" href="#elements"><span class="pp-face" aria-hidden="true">彩</span><span class="pp-name">彩度<small>さいど</small></span><span class="pp-text">色の鮮やかさの度合い</span></a></li><li><a class="pp-card" href="#elements"><span class="pp-face" aria-hidden="true">純</span><span class="pp-name">純色<small>じゅんしょく</small></span><span class="pp-text">それぞれの色相の中で最も彩度が高い、鮮やかな色</span></a></li><li><a class="pp-card" href="#wheel"><span class="pp-face" aria-hidden="true">補</span><span class="pp-name">補色<small>ほしょく</small></span><span class="pp-text">色相環で向かい合う位置にある反対色</span></a></li><li><a class="pp-card" href="#primaries"><span class="pp-face" aria-hidden="true">減</span><span class="pp-name">減法混色<small>げんぽうこんしょく</small></span><span class="pp-text">絵具やインクなどの色材で、色を混ぜるほど暗くなっていく混色</span></a></li><li><a class="pp-card" href="#primaries"><span class="pp-face" aria-hidden="true">加</span><span class="pp-name">加法混色<small>かほうこんしょく</small></span><span class="pp-text">光による色で、色を混ぜるほど明るくなり白に近づく混色</span></a></li><li><a class="pp-card" href="#seurat"><span class="pp-face" aria-hidden="true">視</span><span class="pp-name">視覚混合<small>しかくこんごう</small></span><span class="pp-text">色を物理的に混ぜず、小さな点や線を並べて目の中で混ぜる混色</span></a></li></ul><p class="pp-group">支持体と色材</p><ul class="pp-list"><li><a class="pp-card" href="#support"><span class="pp-face" aria-hidden="true">支</span><span class="pp-name">支持体<small>しじたい</small></span><span class="pp-text">絵画が描かれる側の素材</span></a></li><li><a class="pp-card" href="#support"><span class="pp-face" aria-hidden="true">キ</span><span class="pp-name">キャンヴァス<small></small></span><span class="pp-text">木枠に麻や合成繊維の帆布を張った支持体</span></a></li><li><a class="pp-card" href="#binder"><span class="pp-face" aria-hidden="true">顔</span><span class="pp-name">顔料<small>がんりょう</small></span><span class="pp-text">色のもとになる粉末</span></a></li><li><a class="pp-card" href="#binder"><span class="pp-face" aria-hidden="true">展</span><span class="pp-name">展色剤<small>てんしょくざい</small></span><span class="pp-text">顔料を練り合わせ、画面に定着させる接着剤の役割を持つ材料</span></a></li><li><a class="pp-card" href="#oil"><span class="pp-face" aria-hidden="true">油</span><span class="pp-name">油絵具<small>あぶらえのぐ</small></span><span class="pp-text">顔料に乾性油や樹脂を展色剤として混ぜた絵具</span></a></li><li><a class="pp-card" href="#tempera"><span class="pp-face" aria-hidden="true">テ</span><span class="pp-name">テンペラ<small></small></span><span class="pp-text">顔料を卵やカゼインなどで練った絵具</span></a></li><li><a class="pp-card" href="#fresco"><span class="pp-face" aria-hidden="true">フ</span><span class="pp-name">フレスコ<small></small></span><span class="pp-text">湿った漆喰に、水で溶いた顔料で描く壁画技法</span></a></li><li><a class="pp-card" href="#pastel"><span class="pp-face" aria-hidden="true">パ</span><span class="pp-name">パステル<small></small></span><span class="pp-text">炭酸カルシウムなどに顔料と水性の固着材（アラビアゴムなど）を練って固めたスティック状の画材</span></a></li><li><a class="pp-card" href="#pastel"><span class="pp-face" aria-hidden="true">ア</span><span class="pp-name">アクリル絵具<small></small></span><span class="pp-text">合成樹脂（アクリル樹脂）を展色剤にした20世紀の絵具</span></a></li></ul><p class="pp-group">描く道具</p><ul class="pp-list"><li><a class="pp-card" href="#tools"><span class="pp-face" aria-hidden="true">ペ</span><span class="pp-name">ペインティングナイフ<small></small></span><span class="pp-text">絵具を画面に塗り込む、厚く盛り上げる、エッジを立てるなどに使う金属のへら</span></a></li><li><a class="pp-card" href="#tools"><span class="pp-face" aria-hidden="true">羽</span><span class="pp-name">羽ペン<small>はねぺん</small></span><span class="pp-text">鳥の羽の軸を削って作るペン</span></a></li></ul></section>
+<h2 class="chapter-group-heading" id="group-color">色彩の基本</h2>
+<section class="chapter" id="elements"><header class="chapter-heading"><span class="chapter-number">01</span><h3>色の三要素と有彩色・無彩色</h3><span class="time-link">書籍 p.256</span></header>
+<p class="lesson-text" id="p01">色は<strong class="key-term" title="色相（しきそう）：赤み・黄みといった色味の違い。色相環で表される。">色相</strong>・<strong class="key-term" title="明度（めいど）：色の明るさの度合い。白に近いほど高く、黒に近いほど低い。">明度</strong>・<strong class="key-term" title="彩度（さいど）：色の鮮やかさの度合い。最も彩度の高い色を純色という。">彩度</strong>という三つの属性で区別できる。これを色の三要素（三属性）と呼ぶ。色相は赤み・黄み・青みといった色味の違い、明度は明るさ、彩度は鮮やかさを指す。</p>
+<p class="lesson-text" id="p02">三要素をすべて持つ色を<strong class="key-term" title="有彩色（ゆうさいしょく）：色相・明度・彩度の三要素を持つ色。赤・青・黄など色味のある色。">有彩色</strong>、白・灰色・黒のように明度だけで変化する色を<strong class="key-term" title="無彩色（むさいしょく）：白・灰色・黒のように、色味を持たず明度だけで変化する色。">無彩色</strong>という。それぞれの色相の中で最も彩度が高い色が<strong class="key-term" title="純色（じゅんしょく）：それぞれの色相の中で最も彩度が高い、鮮やかな色。">純色</strong>である。純色に白を混ぜると明るく澄んだ明清色、黒を混ぜると暗く澄んだ暗清色になり、灰色を混ぜると<strong class="key-term" title="濁色（だくしょく）：純色に灰色が混ざった色。中間色ともいう。">濁色</strong>になる。</p>
+<figure class="tx-figure" role="group" aria-label="明度と彩度の図"><svg viewBox="0 0 520 380" role="img" aria-label="明度と彩度による色の変化。左端の列が無彩色、右へ行くほど彩度が高く、右端が純色"><text x="290" y="22" font-size="14" text-anchor="middle">彩度　低 → 高</text><text x="22" y="200" font-size="14" text-anchor="middle" transform="rotate(-90 22 200)">明度　低 → 高</text><rect x="60" y="36" width="58" height="40" fill="#eaeaea"/><rect x="126" y="36" width="58" height="40" fill="#eee6e6"/><rect x="192" y="36" width="58" height="40" fill="#f1e3e3"/><rect x="258" y="36" width="58" height="40" fill="#f5dfdf"/><rect x="324" y="36" width="58" height="40" fill="#f9dbdb"/><rect x="390" y="36" width="58" height="40" fill="#fcd8d8"/><rect x="60" y="82" width="58" height="40" fill="#c9c9c9"/><rect x="126" y="82" width="58" height="40" fill="#d3bfbf"/><rect x="192" y="82" width="58" height="40" fill="#dcb6b6"/><rect x="258" y="82" width="58" height="40" fill="#e6acac"/><rect x="324" y="82" width="58" height="40" fill="#f0a2a2"/><rect x="390" y="82" width="58" height="40" fill="#f99999"/><rect x="60" y="128" width="58" height="40" fill="#a8a8a8"/><rect x="126" y="128" width="58" height="40" fill="#b79898"/><rect x="192" y="128" width="58" height="40" fill="#c78989"/><rect x="258" y="128" width="58" height="40" fill="#d77979"/><rect x="324" y="128" width="58" height="40" fill="#e66969"/><rect x="390" y="128" width="58" height="40" fill="#f65a5a"/><rect x="60" y="174" width="58" height="40" fill="#878787"/><rect x="126" y="174" width="58" height="40" fill="#9c7171"/><rect x="192" y="174" width="58" height="40" fill="#b25c5c"/><rect x="258" y="174" width="58" height="40" fill="#c74646"/><rect x="324" y="174" width="58" height="40" fill="#dd3030"/><rect x="390" y="174" width="58" height="40" fill="#f31b1b"/><rect x="60" y="220" width="58" height="40" fill="#666666"/><rect x="126" y="220" width="58" height="40" fill="#785353"/><rect x="192" y="220" width="58" height="40" fill="#8a4141"/><rect x="258" y="220" width="58" height="40" fill="#9d2e2e"/><rect x="324" y="220" width="58" height="40" fill="#af1c1c"/><rect x="390" y="220" width="58" height="40" fill="#c10a0a"/><rect x="60" y="266" width="58" height="40" fill="#444444"/><rect x="126" y="266" width="58" height="40" fill="#513838"/><rect x="192" y="266" width="58" height="40" fill="#5d2c2c"/><rect x="258" y="266" width="58" height="40" fill="#6a1f1f"/><rect x="324" y="266" width="58" height="40" fill="#761313"/><rect x="390" y="266" width="58" height="40" fill="#820606"/><rect x="60" y="312" width="58" height="40" fill="#232323"/><rect x="126" y="312" width="58" height="40" fill="#2a1d1d"/><rect x="192" y="312" width="58" height="40" fill="#301616"/><rect x="258" y="312" width="58" height="40" fill="#361010"/><rect x="324" y="312" width="58" height="40" fill="#3d0909"/><rect x="390" y="312" width="58" height="40" fill="#430303"/><rect x="456" y="174" width="58" height="40" fill="#d81f1f"/><text x="485" y="232" font-size="13" text-anchor="middle" font-weight="700">純色</text><text x="89" y="372" font-size="13" text-anchor="middle">無彩色</text><text x="320" y="372" font-size="13" text-anchor="middle">有彩色</text><line x1="128" y1="356" x2="512" y2="356" class="ln-mut"/><line x1="60" y1="356" x2="118" y2="356" class="ln-mut"/></svg><figcaption>赤の色相で見た明度と彩度。左端の列は無彩色、右端の中段が純色</figcaption></figure>
+<p class="tx-note"><b>試験の目のつけどころ</b>　「黒・灰色・白は明度だけで変化するので無彩色」「最も彩度の高い色が純色」「純色＋灰色＝濁色」の三つは、用語と定義をそのまま入れ替えて問われやすい。</p>
+</section>
+<section class="chapter" id="wheel"><header class="chapter-heading"><span class="chapter-number">02</span><h3>色相環と補色</h3><span class="time-link">書籍 p.256</span></header>
+<p class="lesson-text" id="p03">主な色相（赤・青・黄・緑・紫など）を円状に等間隔で並べ、その間に中間色を置いたものを<strong class="key-term" title="色相環（しきそうかん）：主な色相を円状に等間隔で並べ、中間色を配置した図。">色相環</strong>という。色相環で真向かいにある色どうしが<strong class="key-term" title="補色（ほしょく）：色相環で向かい合う位置にある反対色。一定の割合で混ぜると無彩色になり、並べると互いを引き立てる。">補色</strong>で、たとえば黄味のだいだいと青、赤と青緑がこれにあたる。</p>
+<figure class="tx-figure" role="group" aria-label="12色相環"><svg viewBox="0 0 520 430" role="img" aria-label="12色相環。向かい合う色が補色"><rect x="236.0" y="41.0" width="48" height="48" fill="#f2df00" transform="rotate(0 260.0 65.0)"/><text x="260.0" y="20.0" font-size="14" text-anchor="middle">黄</text><rect x="311.0" y="61.1" width="48" height="48" fill="#9ccc3c" transform="rotate(30 335.0 85.1)"/><text x="360.0" y="46.8" font-size="14" text-anchor="middle">黄緑</text><rect x="365.9" y="116.0" width="48" height="48" fill="#3d9a48" transform="rotate(60 389.9 140.0)"/><text x="433.2" y="120.0" font-size="14" text-anchor="middle">緑</text><rect x="386.0" y="191.0" width="48" height="48" fill="#13876f" transform="rotate(90 410.0 215.0)"/><text x="460.0" y="220.0" font-size="14" text-anchor="middle">青緑</text><rect x="365.9" y="266.0" width="48" height="48" fill="#1479b8" transform="rotate(120 389.9 290.0)"/><text x="433.2" y="320.0" font-size="14" text-anchor="middle">緑味の青</text><rect x="311.0" y="320.9" width="48" height="48" fill="#24409a" transform="rotate(150 335.0 344.9)"/><text x="360.0" y="393.2" font-size="14" text-anchor="middle">青</text><rect x="236.0" y="341.0" width="48" height="48" fill="#4a2f86" transform="rotate(180 260.0 365.0)"/><text x="260.0" y="420.0" font-size="14" text-anchor="middle">青紫</text><rect x="161.0" y="320.9" width="48" height="48" fill="#76307e" transform="rotate(210 185.0 344.9)"/><text x="160.0" y="393.2" font-size="14" text-anchor="middle">紫</text><rect x="106.1" y="266.0" width="48" height="48" fill="#c43a78" transform="rotate(240 130.1 290.0)"/><text x="86.8" y="320.0" font-size="14" text-anchor="middle">赤紫</text><rect x="86.0" y="191.0" width="48" height="48" fill="#d22f2f" transform="rotate(270 110.0 215.0)"/><text x="60.0" y="220.0" font-size="14" text-anchor="middle">赤</text><rect x="106.1" y="116.0" width="48" height="48" fill="#e8602a" transform="rotate(300 130.1 140.0)"/><text x="86.8" y="120.0" font-size="14" text-anchor="middle">赤味のだいだい</text><rect x="161.0" y="61.1" width="48" height="48" fill="#f1a022" transform="rotate(330 185.0 85.1)"/><text x="160.0" y="46.8" font-size="14" text-anchor="middle">黄味のだいだい</text><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="acc"/></marker></defs><line x1="203.0" y1="116.3" x2="317.0" y2="313.7" class="ln-acc" stroke-width="2" marker-start="url(#arr)" marker-end="url(#arr)"/><text x="278" y="209" font-size="16" font-weight="700" class="acc">補色</text></svg><figcaption>12色相環。矢印で結んだ黄味のだいだいと青のように、向かい合う色が補色</figcaption></figure>
+<p class="lesson-text" id="p04">補色の関係にある2色を一定の割合で混ぜると、色味が打ち消し合って無彩色に近づく。反対に、補色どうしを隣り合わせて置くとコントラストが強まり、どちらの色もいっそう鮮やかに見える。これを補色対比と呼び、絵画やデザインで鮮やかさを強調するために使われてきた。印象派の画家が影に青や紫を置いたのも、日なたの黄色やだいだい色との対比を意識した工夫である。</p>
+</section>
+<section class="chapter" id="primaries"><header class="chapter-heading"><span class="chapter-number">03</span><h3>三原色と二つの混色</h3><span class="time-link">書籍 p.257</span></header>
+<p class="lesson-text" id="p05">混色によって作ることのできない基本の色を<strong class="key-term" title="三原色（さんげんしょく）：混色によって作ることのできない基本の色。色材の三原色と色光の三原色がある。">三原色</strong>という。三原色には、絵具やインクの「色材の三原色」と、光の「色光の三原色」の二種類がある。</p>
+<p class="lesson-text" id="p06">色材の三原色はシアン（緑みの青）、マゼンタ（赤紫）、イエロー（黄）である。色材は混ぜるほど光を吸収する部分が増えて暗くなり、3色を重ねると黒に近づく。これを<strong class="key-term" title="減法混色（げんぽうこんしょく）：絵具やインクなどの色材で、色を混ぜるほど暗くなっていく混色。減算混合ともいう。">減法混色</strong>（減算混合）という。一方、色光の三原色は赤（R）・緑（G）・青（B）で、光を重ねるほど明るくなり、3色が重なると白になる。これが<strong class="key-term" title="加法混色（かほうこんしょく）：光による色で、色を混ぜるほど明るくなり白に近づく混色。加算混合ともいう。">加法混色</strong>（加算混合）で、テレビやパソコンの画面はこの仕組みで色を表示している。</p>
+<figure class="tx-figure" role="group" aria-label="減法混色と加法混色"><div class="tx-pair"><div><svg viewBox="0 0 300 280" role="img" aria-label="色材の三原色シアン・マゼンタ・イエローの減法混色。重なるほど暗くなる"><rect width="300" height="280" fill="#ffffff"/><g style="mix-blend-mode:multiply"><circle cx="150" cy="105" r="78" fill="#e6007e"/><circle cx="105" cy="180" r="78" fill="#ffe600" style="mix-blend-mode:multiply"/><circle cx="195" cy="180" r="78" fill="#00a0e9" style="mix-blend-mode:multiply"/></g><text x="150" y="70" font-size="13" text-anchor="middle" style="fill:#fff">マゼンタ</text><text x="70" y="215" font-size="13" text-anchor="middle" style="fill:#5a4a00">イエロー</text><text x="232" y="215" font-size="13" text-anchor="middle" style="fill:#fff">シアン</text></svg><p>色材の三原色と減法混色</p></div><div><svg viewBox="0 0 300 280" role="img" aria-label="色光の三原色赤・緑・青の加法混色。重なるほど明るく、中央は白"><rect width="300" height="280" fill="#111111"/><g style="isolation:isolate"><circle cx="150" cy="105" r="78" fill="#ff2a2a"/><circle cx="105" cy="180" r="78" fill="#22dd22" style="mix-blend-mode:screen"/><circle cx="195" cy="180" r="78" fill="#2a4bff" style="mix-blend-mode:screen"/></g><text x="150" y="70" font-size="13" text-anchor="middle" style="fill:#fff">赤（R）</text><text x="70" y="215" font-size="13" text-anchor="middle" style="fill:#fff">緑（G）</text><text x="232" y="215" font-size="13" text-anchor="middle" style="fill:#fff">青（B）</text></svg><p>色光の三原色と加法混色</p></div></div><figcaption>左：色材は重ねるほど暗くなる（減法混色）。右：光は重ねるほど明るくなり、中央は白になる（加法混色）</figcaption></figure>
+</section>
+<section class="chapter" id="seurat"><header class="chapter-heading"><span class="chapter-number">04</span><h3>スーラの点描はカラー印刷と同じ</h3><span class="time-link">書籍 p.257</span></header>
+<p class="lesson-text" id="p07"><span class="nm-person">ジョルジュ・スーラ</span>の<span class="nm-work">《グランド・ジャット島の日曜日の午後》</span>は、画面のすべての形が小さな色の点の集まりで描かれている。点の一つひとつは、チューブから出したままの純色に近い。パレットの上で絵具を混ぜれば赤＋青＝紫のように多くの色を作れるが、減法混色なので色は濁って暗くなる。スーラは色を混ぜずに点として並べ、離れて見たときに目の中で色が重なるようにした。こうすると濁りの少ない混色の効果が得られる。この<strong class="key-term" title="点描（てんびょう）：小さな色の点を並べて画面を作る技法。離れて見ると点が目の中で混ざり合う（視覚混合）。スーラら新印象主義の画家が用いた。">点描</strong>の考え方は、<strong class="key-term" title="視覚混合（しかくこんごう）：色を物理的に混ぜず、小さな点や線を並べて目の中で混ぜる混色。並置混合ともいい、絵具を混ぜるより濁りにくい。">視覚混合</strong>（並置混合）と呼ばれる。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-grandejatte"><a class="zoom-link" href="../images/T001/seurat.jpg" aria-label="グランド・ジャット島の日曜日の午後の画像を拡大"><img src="../images/T001/seurat.jpg" alt="グランド・ジャット島の日曜日の午後" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《グランド・ジャット島の日曜日の午後》</h3>
+          <dl><div><dt>作者</dt><dd>ジョルジュ・スーラ</dd></div><div><dt>制作時期</dt><dd>1884〜86年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>シカゴ美術館</dd></div><div><dt>素材・形式</dt><dd>油彩・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.257</span></figcaption></figure><figure class="artwork" id="work-grandejatte-detail"><a class="zoom-link" href="../images/T001/seurat-detail.jpg" aria-label="グランド・ジャット島の日曜日の午後（部分拡大）の画像を拡大"><img src="../images/T001/seurat-detail.jpg" alt="グランド・ジャット島の日曜日の午後（部分拡大）" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><span class="reference-label">部分拡大</span><h3>《グランド・ジャット島の日曜日の午後（部分拡大）》</h3>
+          <dl><div><dt>作者</dt><dd>ジョルジュ・スーラ</dd></div><div><dt>制作時期</dt><dd>1884〜86年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>シカゴ美術館</dd></div><div><dt>素材・形式</dt><dd>油彩・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-note">画面下中央、座る人物と芝生の部分を拡大した。芝生の緑の中にも黄・青・だいだいの点が混ざっている。</p><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.257</span></figcaption></figure></div>
+<p class="lesson-text" id="p08">この原理はカラー印刷とよく似ている。カラー印刷では、紅（マゼンタ）・藍（シアン）・黄（イエロー）・黒（ブラック）の4色を小さな網点にして刷り分け、すべての色を再現する。スーラの作品には、ほかにも赤と緑、紫と黄のような色味が反対の性質の色を並べ、互いを引き立てる補色対比などの複雑な仕掛けがある。スーラとシニャックら新印象主義の流れは、<a href="026.html">W025 新印象主義</a>で詳しく扱っている。</p>
+</section>
+<h2 class="chapter-group-heading" id="group-support">西洋絵画の支持体</h2>
+<section class="chapter" id="support"><header class="chapter-heading"><span class="chapter-number">05</span><h3>板・漆喰層・キャンヴァス・紙</h3><span class="time-link">書籍 p.258</span></header>
+<p class="lesson-text" id="p09">絵が描かれる側の素材を<strong class="key-term" title="支持体（しじたい）：絵画が描かれる側の素材。基底材ともいう。板・漆喰層・キャンヴァス・紙など。">支持体</strong>といい、基底材と呼ぶこともある。油彩ならキャンヴァスや板、水彩なら紙、フレスコなら壁や天井の漆喰層がよく使われる。支持体を見分けると、その作品がいつ、どんな場所のために作られたのかも見えてくる。</p>
+<p class="lesson-text" id="p10">板は中世からテンペラや油彩によく使われた支持体で、キャンヴァスが広まるまでは油彩画の主な支持体だった。<span class="nm-person">ピーテル・ブリューゲル（父）</span>の<span class="nm-work">《雪中の狩人》</span>も、月暦画の連作として板に描かれている。漆喰層はフレスコ画の支持体である。教会や城の内部の絵画・装飾は、壁や天井に直接描かれたものが多い。<span class="nm-person">ジョット</span>の<span class="nm-work">《ユダの接吻》</span>は、パドヴァのスクロヴェーニ礼拝堂の壁を埋める連作の一場面である。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-hunters"><a class="zoom-link" href="../images/T001/bruegel.jpg" aria-label="雪中の狩人の画像を拡大"><img src="../images/T001/bruegel.jpg" alt="雪中の狩人" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《雪中の狩人》</h3>
+          <dl><div><dt>作者</dt><dd>ピーテル・ブリューゲル（父）</dd></div><div><dt>制作時期</dt><dd>1565年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ウィーン美術史美術館</dd></div><div><dt>素材・形式</dt><dd>油彩・板</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.258</span></figcaption></figure><figure class="artwork" id="work-judas"><a class="zoom-link" href="../images/T001/giotto.jpg" aria-label="ユダの接吻の画像を拡大"><img src="../images/T001/giotto.jpg" alt="ユダの接吻" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《ユダの接吻》</h3>
+          <dl><div><dt>作者</dt><dd>ジョット・ディ・ボンドーネ</dd></div><div><dt>制作時期</dt><dd>1304〜06年頃</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>スクロヴェーニ礼拝堂（パドヴァ）</dd></div><div><dt>素材・形式</dt><dd>フレスコ（漆喰壁）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.258</span></figcaption></figure></div>
+<p class="lesson-text" id="p11"><strong class="key-term" title="キャンヴァス：木枠に麻や合成繊維の帆布を張った支持体。油彩画で最もよく使われる。16世紀のヴェネツィアで広く普及した。">キャンヴァス</strong>は油彩画で最もポピュラーな支持体で、木枠に麻や合成繊維の帆布を張って作る。布の目の粗さによって絵肌の表情も変わる。ルネサンス期に登場し、湿気が多く壁画が傷みやすいヴェネツィアで16世紀に広く普及した。軽くて巻いて運べるため大画面にも向く。<span class="nm-person">ティツィアーノ</span>の<span class="nm-work">《ウルビーノのヴィーナス》</span>はその代表例である。紙は水彩画、パステル画、ペン画、版画など幅広く使われる支持体で、種類が豊富なうえ、水分の吸い込み方によって表現が変わる。テキストが紙の例に挙げる<span class="nm-person">ムンク</span>の<span class="nm-work">《叫び》</span>（1893年）は、厚紙（カードボード）に油彩・テンペラ・パステルで描かれている。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-urbino"><a class="zoom-link" href="../images/T001/titian.jpg" aria-label="ウルビーノのヴィーナスの画像を拡大"><img src="../images/T001/titian.jpg" alt="ウルビーノのヴィーナス" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《ウルビーノのヴィーナス》</h3>
+          <dl><div><dt>作者</dt><dd>ティツィアーノ・ヴェチェッリオ</dd></div><div><dt>制作時期</dt><dd>1538年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ウフィツィ美術館（フィレンツェ）</dd></div><div><dt>素材・形式</dt><dd>油彩・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.258</span></figcaption></figure><figure class="artwork" id="work-scream"><a class="zoom-link" href="../images/T001/munch.jpg" aria-label="叫びの画像を拡大"><img src="../images/T001/munch.jpg" alt="叫び" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《叫び》</h3>
+          <dl><div><dt>作者</dt><dd>エドヴァルド・ムンク</dd></div><div><dt>制作時期</dt><dd>1893年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ノルウェー国立美術館（オスロ）</dd></div><div><dt>素材・形式</dt><dd>油彩・テンペラ・パステル・厚紙</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.258</span></figcaption></figure></div>
+</section>
+<h2 class="chapter-group-heading" id="group-paint">色材：顔料と展色剤</h2>
+<section class="chapter" id="binder"><header class="chapter-heading"><span class="chapter-number">06</span><h3>顔料と展色剤で絵具が決まる</h3><span class="time-link">書籍 p.259</span></header>
+<p class="lesson-text" id="p12"><strong class="key-term" title="色材（しきざい）：色を付けるために用いるさまざまな材料の総称。粉末・棒状・固形・チューブ入りなど形状も多様。">色材</strong>は、色を付けるために使う材料の総称で、粉末、棒状、固形、練ってチューブに入れたものまで形はさまざまである。西洋美術史に登場する作品の多くは、色のもとになる<strong class="key-term" title="顔料（がんりょう）：色のもとになる粉末。水や油に溶けない。">顔料</strong>と、接着剤の役目をする<strong class="key-term" title="展色剤（てんしょくざい）：顔料を練り合わせ、画面に定着させる接着剤の役割を持つ材料。乾性油・卵・アラビアゴム・アクリル樹脂など。メディウムともいう。">展色剤</strong>を混ぜ合わせた絵具で描かれている。</p>
+<p class="lesson-text" id="p13">顔料を植物性の乾性油で練れば油絵具、アラビアゴムで練れば水彩絵具になる。同じ顔料でも、どの展色剤を使うかで絵具の種類と名前が変わるわけだ。冒頭の図解の表は、絵具と展色剤の組み合わせをまとめたものである。私たちが「絵具」と聞いて思い浮かべるチューブ入りのものは練り絵具と呼ばれ、ほかに固形やスティック状の絵具もある。</p>
+</section>
+<section class="chapter" id="oil"><header class="chapter-heading"><span class="chapter-number">07</span><h3>油絵具とチューブの発明</h3><span class="time-link">書籍 p.259</span></header>
+<p class="lesson-text" id="p14"><strong class="key-term" title="油絵具（あぶらえのぐ）：顔料に乾性油や樹脂を展色剤として混ぜた絵具。15世紀半ばまでに技法の基礎が完成し、19世紀にチューブ入りが開発された。">油絵具</strong>は、顔料に乾性油や樹脂を展色剤として混ぜたものである。起源ははっきりしないが、15世紀半ばまでにはほとんどの技法の基礎ができあがった。ネーデルラントのファン・エイク兄弟が油彩技法を完成させたという伝承はよく知られている。油絵具は乾くのが遅いため、色を何層にも重ねたり、ぼかしたりする表現に向いている。</p>
+<p class="lesson-text" id="p15">チューブ入り絵具が開発されたのは19世紀で、それまでは画家や弟子たちが工房で顔料と展色剤を練り合わせて作っていた。持ち運べる絵具が生まれたおかげで、印象主義の画家たちは戸外で光の移ろいを描けるようになった。印象主義の名のもとになった<span class="nm-person">モネ</span>の<span class="nm-work">《印象、日の出》</span>も、すばやい筆さばきで港の朝の空気をとらえている。</p>
+<div class="artwork-grid"><figure class="artwork" id="work-impression"><a class="zoom-link" href="../images/T001/monet.jpg" aria-label="印象、日の出の画像を拡大"><img src="../images/T001/monet.jpg" alt="印象、日の出" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《印象、日の出》</h3>
+          <dl><div><dt>作者</dt><dd>クロード・モネ</dd></div><div><dt>制作時期</dt><dd>1872年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>マルモッタン・モネ美術館（パリ）</dd></div><div><dt>素材・形式</dt><dd>油彩・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.259</span></figcaption></figure></div>
+</section>
+<section class="chapter" id="tempera"><header class="chapter-heading"><span class="chapter-number">08</span><h3>テンペラ絵具</h3><span class="time-link">書籍 p.259</span></header>
+<p class="lesson-text" id="p16"><strong class="key-term" title="テンペラ：顔料を卵やカゼインなどで練った絵具。乾きが速く、乾燥後は耐水性になる。15世紀半ばに油彩画が普及すると衰退した。">テンペラ</strong>絵具は、顔料を卵やカゼインなどで練って作る。18世紀中頃までは、アラビアゴムや膠（にかわ）などを混ぜた水性絵具の総称としても使われていた。中世からルネサンス初期の板絵の多くはテンペラで描かれている。<span class="nm-person">チマブーエ</span>の<span class="nm-work">《サンタ・トリニタの聖母》</span>は、金地を背景にした大きな祭壇画で、テンペラ画の典型である。</p>
+<p class="lesson-text" id="p17">15世紀半ばに油彩画が普及すると、テンペラは衰退する。ただし、卵の中にリンシード・オイル（亜麻仁油）を混ぜた<strong class="key-term" title="オイル・テンペラ：卵にリンシード・オイル（亜麻仁油）を混合したテンペラ。ウィーン幻想派などが使用した。">オイル・テンペラ</strong>は、20世紀のウィーン幻想派などが使っている。フレスコとの違いは<a href="T002.html#fresco-tempera">T002 フレスコとテンペラの違い</a>で詳しく扱う。</p>
+<div class="artwork-grid"><figure class="artwork" id="work-trinita"><a class="zoom-link" href="../images/T001/cimabue.jpg" aria-label="サンタ・トリニタの聖母の画像を拡大"><img src="../images/T001/cimabue.jpg" alt="サンタ・トリニタの聖母" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《サンタ・トリニタの聖母》</h3>
+          <dl><div><dt>作者</dt><dd>チマブーエ</dd></div><div><dt>制作時期</dt><dd>1280〜90年頃</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ウフィツィ美術館（フィレンツェ）</dd></div><div><dt>素材・形式</dt><dd>テンペラ・板</dd></div><div><dt>書籍の年代</dt><dd>1280年頃</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Cimabue_-_Maestà_di_Santa_Trinita_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Cimabue_-_Maestà_di_Santa_Trinita_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.259</span></figcaption></figure></div>
+</section>
+<section class="chapter" id="fresco"><header class="chapter-heading"><span class="chapter-number">09</span><h3>フレスコの色材</h3><span class="time-link">書籍 p.259</span></header>
+<p class="lesson-text" id="p18"><strong class="key-term" title="フレスコ：湿った漆喰に、水で溶いた顔料で描く壁画技法。石灰と炭酸ガスの化学変化で顔料が定着し、堅牢な画面になる。イタリア語で「新鮮な」の意。">フレスコ</strong>は、水と石灰と空気中の炭酸ガスの化学変化を利用した技法である。顔料を水だけで練った色材を使い、主成分が石灰の漆喰面が湿っているうちに描く。乾く過程で石灰が炭酸カルシウムに変わり、色材が漆喰に閉じ込められて堅牢な画面になる。<span class="nm-person">ラファエロ</span>がヴァチカン宮殿の「署名の間」に描いた<span class="nm-work">《アテネの学堂》</span>は、盛期ルネサンスのフレスコの代表作である。</p>
+<div class="artwork-grid"><figure class="artwork" id="work-athens"><a class="zoom-link" href="../images/T001/raphael.jpg" aria-label="アテネの学堂の画像を拡大"><img src="../images/T001/raphael.jpg" alt="アテネの学堂" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《アテネの学堂》</h3>
+          <dl><div><dt>作者</dt><dd>ラファエロ・サンティ</dd></div><div><dt>制作時期</dt><dd>1509〜10年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ヴァチカン宮殿 署名の間</dd></div><div><dt>素材・形式</dt><dd>フレスコ</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:&quot;The_School_of_Athens&quot;_by_Raffaello_Sanzio_da_Urbino.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:&quot;The_School_of_Athens&quot;_by_Raffaello_Sanzio_da_Urbino.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.259</span></figcaption></figure></div>
+</section>
+<section class="chapter" id="pastel"><header class="chapter-heading"><span class="chapter-number">10</span><h3>アクリル絵具とパステル</h3><span class="time-link">書籍 p.259</span></header>
+<p class="lesson-text" id="p19"><strong class="key-term" title="アクリル絵具：合成樹脂（アクリル樹脂）を展色剤にした20世紀の絵具。油絵具より速く乾き、重ね塗りに便利で、使える支持体も幅広い。">アクリル絵具</strong>は20世紀に開発された絵具で、合成樹脂を展色剤にした絵具の一般的な呼び名である。油絵具より速く乾くので重ね塗りに便利で、キャンヴァスのほか、粘土、レザー、木など使える支持体も幅広い。テキストは、薄めた絵具を生のキャンヴァスに染み込ませたモーリス・ルイスの作品を例に挙げている。</p>
+<div class="artwork-grid"><figure class="artwork" id="work-alphapi"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は1962年没で、著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《アルファ・パイ》</h3>
+          <dl><div><dt>作者</dt><dd>モーリス・ルイス</dd></div><div><dt>制作時期</dt><dd>1960年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>メトロポリタン美術館（ニューヨーク）</dd></div><div><dt>素材・形式</dt><dd>アクリル（マグナ）・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Morris_Louis" target="_blank" rel="noopener noreferrer">作者・技法の解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.259</span></figcaption></figure></div>
+<p class="lesson-text" id="p20"><strong class="key-term" title="パステル：炭酸カルシウムなどに顔料と水性の固着材（アラビアゴムなど）を練って固めたスティック状の画材。18世紀フランスで普及した。">パステル</strong>は、炭酸カルシウムなどに顔料と水性の固着材（アラビアゴムなど）を練り、スティック状に固めた画材である。17世紀半ばにドイツやイタリアで作られ、18世紀のフランスで肖像画を中心に流行した。<span class="nm-person">モーリス＝カンタン・ド・ラ・トゥール</span>の<span class="nm-work">《ポンパドゥール夫人の肖像》</span>は、等身大に近いパステル画の傑作である。19世紀にはルドンやドガもパステルを愛用した。</p>
+<div class="artwork-grid"><figure class="artwork" id="work-pompadour"><a class="zoom-link" href="../images/T001/latour.jpg" aria-label="ポンパドゥール夫人の肖像の画像を拡大"><img src="../images/T001/latour.jpg" alt="ポンパドゥール夫人の肖像" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《ポンパドゥール夫人の肖像》</h3>
+          <dl><div><dt>作者</dt><dd>モーリス＝カンタン・ド・ラ・トゥール</dd></div><div><dt>制作時期</dt><dd>1748〜55年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ルーヴル美術館（パリ）</dd></div><div><dt>素材・形式</dt><dd>パステル・紙</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Maurice_Quentin_de_La_Tour_-_Madame_de_Pompadour_dans_son_cabinet_de_travail.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Maurice_Quentin_de_La_Tour_-_Madame_de_Pompadour_dans_son_cabinet_de_travail.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.259</span></figcaption></figure></div>
+</section>
+<h2 class="chapter-group-heading" id="group-tools">描く道具</h2>
+<section class="chapter" id="tools"><header class="chapter-heading"><span class="chapter-number">11</span><h3>筆・ナイフ・ペン</h3><span class="time-link">書籍 p.260</span></header>
+<p class="lesson-text" id="p21">西洋画用の筆は形によって呼び名が変わり、ラウンド（丸筆）とフラット（平筆）に大きく分けられる。さらに穂先の形や穂の長さで細かく分類され、用途や表現に応じて使い分けられる。丸筆は穂先を使った描き込みや仕上げに、平筆はエッジを生かした描線や広い面を塗るのに向く。</p>
+<p class="lesson-text" id="p22">油彩画やアクリル画では、筆のほかに<strong class="key-term" title="ペインティングナイフ：絵具を画面に塗り込む、厚く盛り上げる、エッジを立てるなどに使う金属のへら。">ペインティングナイフ</strong>も使われる。絵具を画面に塗り込む、厚く塗り上げる、エッジを立てるなど、筆とは違う効果を生む道具である。ほかにパレットの上で絵具を混ぜるパレットナイフや、絵具を削り取るスクレイパーがある。テキストは、厚く塗り重ねた絵具で顔を浮かび上がらせた<span class="nm-person">フォートリエ</span>の<span class="nm-work">《人質》</span>を挙げる。ここでは画像の代わりに、19世紀にナイフを多用した<span class="nm-person">クールベ</span>の<span class="nm-work">《波》</span>を参考作品として示す。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-otage"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は1964年没で、日本以外の多くの国で著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《人質》</h3>
+          <dl><div><dt>作者</dt><dd>ジャン・フォートリエ</dd></div><div><dt>制作時期</dt><dd>1944年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>—（「人質」連作の一点）</dd></div><div><dt>素材・形式</dt><dd>油彩・紙（厚塗り）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Jean_Fautrier" target="_blank" rel="noopener noreferrer">作者・技法の解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.260</span></figcaption></figure><figure class="artwork artwork--reference" id="work-wave"><a class="zoom-link" href="../images/T001/courbet.jpg" aria-label="波の画像を拡大"><img src="../images/T001/courbet.jpg" alt="波" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><span class="reference-label">参考作品（代わりの作例）</span><h3>《波》</h3>
+          <dl><div><dt>作者</dt><dd>ギュスターヴ・クールベ</dd></div><div><dt>制作時期</dt><dd>1869年頃</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>スコットランド国立美術館（エディンバラ）</dd></div><div><dt>素材・形式</dt><dd>油彩・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-note">クールベは波頭や岩肌の表現にパレットナイフを多用した。書籍の作例ではない。</p><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Gustave_Courbet_-_The_Wave_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Gustave_Courbet_-_The_Wave_-_Google_Art_Project.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.260</span></figcaption></figure></div>
+<p class="lesson-text" id="p23">ペンは線で表現するための道具である。ペン（pen）はラテン語で羽を意味する penna に由来し、<strong class="key-term" title="羽ペン（はねぺん）：鳥の羽の軸を削って作るペン。15世紀から19世紀後半まで画家に好まれた。">羽ペン</strong>は15世紀から19世紀後半まで画家に好まれた。金属ペンは19世紀後半から普及し、さまざまな形のペン先がある。<span class="nm-person">レオナルド・ダ・ヴィンチ</span>の<span class="nm-work">《ウィトルウィウス的人体図》</span>（人体比例図）は、ペンとインクで描かれた素描の代表例である。</p>
+<div class="artwork-grid"><figure class="artwork" id="work-vitruvian"><a class="zoom-link" href="../images/T001/vitruvian.jpg" aria-label="ウィトルウィウス的人体図（人体比例図）の画像を拡大"><img src="../images/T001/vitruvian.jpg" alt="ウィトルウィウス的人体図（人体比例図）" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《ウィトルウィウス的人体図（人体比例図）》</h3>
+          <dl><div><dt>作者</dt><dd>レオナルド・ダ・ヴィンチ</dd></div><div><dt>制作時期</dt><dd>1490年頃</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>アカデミア美術館（ヴェネツィア）</dd></div><div><dt>素材・形式</dt><dd>ペン・インク・紙</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Da_Vinci_Vitruve_Luc_Viatour.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.260</span></figcaption></figure></div>
+</section>
+<section class="lesson-summary" id="lesson-summary" aria-labelledby="lesson-summary-heading"><h2 id="lesson-summary-heading">要点まとめ</h2><ul><li>色は色相・明度・彩度の三要素で区別でき、三要素を持つ有彩色と、明度だけで変化する無彩色に分かれる。</li><li>色相環で向かい合う色が補色。混ぜると無彩色に近づき、並べると互いを引き立てる（補色対比）。</li><li>色材の三原色（シアン・マゼンタ・イエロー）は混ぜるほど暗くなる減法混色、色光の三原色（赤・緑・青）は混ぜるほど明るくなる加法混色。</li><li>スーラの点描は色を目の中で混ぜる視覚混合で、網点で色を再現するカラー印刷と同じ考え方に立つ。</li><li>支持体は板・漆喰層・キャンヴァス・紙。キャンヴァスは16世紀のヴェネツィアで普及した。</li><li>絵具は顔料と展色剤の組み合わせで決まる。卵ならテンペラ、乾性油なら油絵具、アラビアゴムならパステルや水彩。</li><li>チューブ入り絵具は19世紀に開発され、印象主義の戸外制作を支えた。アクリル絵具は20世紀の合成樹脂の絵具。</li></ul></section><section class="lesson-quiz" id="lesson-quiz" aria-labelledby="lesson-quiz-heading"><h2 id="lesson-quiz-heading">確認問題</h2><p class="quiz-score"><span>選択問題：0／3問回答・正解0</span><button type="button" class="quiz-reset">やり直す</button></p><h3 class="quiz-type"><b>A. 一問一答</b></h3><div class="quiz-item"><p class="quiz-q"><span class="no">問1</span>絵画が描かれる側の素材で、基底材とも呼ばれるものは何か。</p><details><summary>答えを見る</summary><div class="quiz-answer"><strong>支持体</strong><br>油彩ならキャンヴァスや板、水彩なら紙、フレスコなら漆喰層。<br><a class="quiz-ref" href="#support">→ 本文で確認（板・漆喰層・キャンヴァス・紙）</a></div></details></div><div class="quiz-item"><p class="quiz-q"><span class="no">問2</span>純色に灰色が混ざった色を何というか。</p><details><summary>答えを見る</summary><div class="quiz-answer"><strong>濁色</strong><br>白を混ぜると明清色、黒を混ぜると暗清色になる。<br><a class="quiz-ref" href="#elements">→ 本文で確認（色の三要素と有彩色・無彩色）</a></div></details></div><div class="quiz-item"><p class="quiz-q"><span class="no">問3</span>顔料を画面に定着させる、接着剤の役割をする材料を何というか。</p><details><summary>答えを見る</summary><div class="quiz-answer"><strong>展色剤</strong><br>乾性油なら油絵具、卵ならテンペラ、アラビアゴムなら水彩絵具やパステルになる。<br><a class="quiz-ref" href="#binder">→ 本文で確認（顔料と展色剤で絵具が決まる）</a></div></details></div><h3 class="quiz-type"><b>B. 4択</b></h3><div class="quiz-item" data-choice><p class="quiz-q"><span class="no">問4</span>色光の三原色を重ねていくと、色はどうなるか。</p><div class="quiz-choices"><button type="button" data-correct>明るくなり、白に近づく</button><button type="button">暗くなり、黒に近づく</button><button type="button">彩度だけが上がる</button><button type="button">補色に変わる</button></div><div class="quiz-feedback"><span class="verdict"></span>正解は「明るくなり、白に近づく」。光の混色は加法混色。絵具やインクの減法混色は混ぜるほど暗くなる。<br><a class="quiz-ref" href="#primaries">→ 本文で確認（三原色と二つの混色）</a></div></div><div class="quiz-item" data-choice><p class="quiz-q"><span class="no">問5</span>15世紀半ばに油彩画が普及すると衰退した、卵を展色剤とする絵具はどれか。</p><div class="quiz-choices"><button type="button" data-correct>テンペラ</button><button type="button">フレスコ</button><button type="button">パステル</button><button type="button">アクリル絵具</button></div><div class="quiz-feedback"><span class="verdict"></span>正解はテンペラ。卵の中にリンシード・オイルを混ぜたオイル・テンペラは、ウィーン幻想派などが使った。<br><a class="quiz-ref" href="#tempera">→ 本文で確認（テンペラ絵具）</a></div></div><div class="quiz-item" data-choice><p class="quiz-q"><span class="no">問6</span>チューブ入り絵具が開発された時期はいつか。</p><div class="quiz-choices"><button type="button" data-correct>19世紀</button><button type="button">15世紀</button><button type="button">17世紀</button><button type="button">20世紀</button></div><div class="quiz-feedback"><span class="verdict"></span>正解は19世紀。印象主義の画家が戸外で絵具を使えたのは、チューブ入り絵具の恩恵である。<br><a class="quiz-ref" href="#oil">→ 本文で確認（油絵具とチューブの発明）</a></div></div><h3 class="quiz-type"><b>C. 図版問題</b></h3><div class="quiz-item"><div class="quiz-figure"><img src="../images/T001/seurat-detail.jpg" alt="図版問題の作品" loading="lazy" decoding="async"><div><p class="quiz-q"><span class="no">問7</span>小さな純色の点を並べ、離れて見ると目の中で色が混ざるように描かれた作品の作者は誰か。</p><details><summary>答えを見る</summary><div class="quiz-answer"><strong>ジョルジュ・スーラ</strong><br>《グランド・ジャット島の日曜日の午後》の部分。点描による視覚混合は、カラー印刷の網点と同じ原理である。<br><a class="quiz-ref" href="#work-grandejatte">→ 本文で確認（作品カード）</a></div></details></div></div></div><div class="quiz-item"><div class="quiz-figure"><img src="../images/T001/latour.jpg" alt="図版問題の作品" loading="lazy" decoding="async"><div><p class="quiz-q"><span class="no">問8</span>18世紀フランスで流行した、顔料と固着材を練り固めたスティック状の画材で描かれたこの作品の画材は何か。</p><details><summary>答えを見る</summary><div class="quiz-answer"><strong>パステル</strong><br>モーリス＝カンタン・ド・ラ・トゥール《ポンパドゥール夫人の肖像》。ルドンやドガもパステルを愛用した。<br><a class="quiz-ref" href="#work-pompadour">→ 本文で確認（作品カード）</a></div></details></div></div></div></section>
+<footer class="lesson-footer"><p class="eyebrow">この教材について</p><p>『改訂版 西洋・日本美術史の基本（美術検定テキスト）』Part3「もっと詳しく知りたい」（書籍256〜260ページ）の項目を骨格に、美術検定で問われやすい補足を加えて解説した。図解は書籍の図を参考に新たに作図している。</p>
+
+<p class="caption-type">画像の権利は各画像の出典・ライセンスをご確認ください。著作権の保護期間中の作品は画像を掲載せず、参考リンクのみを示しています。</p><a class="back-link" href="../index.html">← 教材一覧へ</a></footer></article></div></main>
+<footer class="site-footer">美術史の読書室 </footer>
+<dialog class="lightbox" aria-label="作品画像の拡大"><button class="lightbox-close" type="button" aria-label="拡大表示を閉じる">閉じる ×</button><img alt=""><p class="lightbox-caption"></p></dialog>
+</body></html>
