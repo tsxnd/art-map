@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="教材の本文・作品情報を横断検索し、該当する章や作品へ移動できます。">
+<title>教材本文を検索｜西洋美術史の読書室</title>
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/theme.css"><link rel="stylesheet" href="css/search.css">
+<script src="js/theme-init.js"></script><script defer src="js/theme.js"></script>
+<script defer src="js/search-data.js"></script><script defer src="js/search.js"></script></head>
+<body><a class="skip-link" href="#fulltext-query">検索へ進む</a>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">美</span>美術史の読書室</a><div class="header-actions"><a class="header-home" href="study-index.html">作者・作品・人名索引</a><a class="header-home" href="glossary.html">用語集</a><button class="theme-toggle" type="button" aria-pressed="false" aria-label="ダークモードに切り替える" title="ダークモードに切り替える"><svg class="theme-icon-sun" aria-hidden="true" focusable="false"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" />
+</svg><svg class="theme-icon-moon" aria-hidden="true" focusable="false"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+</svg></button></div></header>
+<main class="search-page">
+<p class="eyebrow">教材をまたいで調べる</p><h1>教材本文を検索</h1>
+<p class="search-lead">人名・作品名・用語から、本文や作品情報の該当箇所を探せます。</p>
+<form id="fulltext-form" role="search" autocomplete="off">
+<label for="fulltext-query">調べたい言葉</label>
+<div class="fulltext-input-row"><input id="fulltext-query" type="search" maxlength="200" placeholder="例：遠近法、ゴッホ、マティス 色彩" enterkeyhint="search" aria-describedby="search-help" autocomplete="off"><button type="submit">検索</button></div>
+<p id="search-help">空白で区切ると、すべての言葉を含む箇所を探します。</p>
+<div class="fulltext-filters"><label>シリーズ<select id="fulltext-series"><option value="">すべてのシリーズ</option></select></label><label>時代<select id="fulltext-era"><option value="">すべての時代</option></select></label><button type="reset" class="fulltext-reset">条件をクリア</button></div>
+</form>
+<p class="fulltext-status" id="fulltext-status" role="status" aria-live="polite" tabindex="-1">57教材の本文・作品情報を検索できます。</p>
+<p id="fulltext-empty">調べたい言葉を入力してください。</p>
+<ol id="fulltext-results" class="fulltext-results" aria-label="検索結果"></ol>
+<button id="fulltext-more" type="button" hidden>次の20件を表示</button>
+<noscript><p>本文検索にはJavaScriptが必要です。<a href="index.html">教材一覧</a>から各教材を開けます。</p></noscript>
+<p class="search-back"><a href="index.html">← 教材一覧へ</a></p>
+</main><footer class="site-footer">西洋美術史の読書室</footer></body></html>

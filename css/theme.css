@@ -1,0 +1,39 @@
+/* Theme shared by the catalogue and all lessons. SVGs: Lucide (see assets/icons/lucide/LICENSE). */
+html[data-theme=dark]{--paper:#161616;--ink:#e6e3de;--muted:#a09c96;--line:#333333;--soft:#1f1f1f;--accent:#9db4e0;--accent-hover:#c3d3f0;--note-line:#3f5170;--white:#1d1d1d;--image-bg:#242424;--note-bg:#1f1f1f;--subtitle:#c9c5bf;--brand-line:#555555;--lightbox-bg:#101010;--lightbox-backdrop:#000000e0;--lightbox-line:#666666;--hint-bg:#000000c0;--shadow-color:#00000040;--ref-accent:#c4a26a;--ref-bg:#232019;--ref-ink:#1a1712;color-scheme:dark}
+.theme-toggle{display:inline-grid;place-items:center;flex-shrink:0;width:40px;height:40px;padding:9px;border:1px solid var(--line);border-radius:5px;background:var(--paper);color:var(--ink);cursor:pointer;line-height:1}
+.theme-toggle:hover{border-color:var(--accent);color:var(--accent)}
+.theme-toggle svg{display:block;width:20px;height:20px;max-width:none}
+.theme-toggle .theme-icon-sun{display:none}
+html[data-theme=dark] .theme-toggle .theme-icon-sun{display:block}
+html[data-theme=dark] .theme-toggle .theme-icon-moon{display:none}
+.header-actions{display:flex;align-items:center;gap:20px}
+html[data-theme=dark] a:hover{color:var(--accent-hover)}
+html[data-theme=dark] .lesson-subtitle{color:var(--subtitle)}html[data-theme=dark] .image-note{color:var(--muted)}
+html[data-theme=dark] .artwork{background:var(--white)}
+html[data-theme=dark] .zoom-link{background:var(--image-bg)}
+html[data-theme=dark] .source-note{background:var(--note-bg);border-left-color:var(--note-line)}
+html[data-theme=dark] .contents a span,html[data-theme=dark] .chapter-number{color:var(--muted)}
+html[data-theme=dark] .skip-link{background:var(--white)}
+html[data-theme=dark] .brand-mark{border-color:var(--brand-line)}
+@media(max-width:720px){.site-header{gap:10px}.header-actions{gap:12px}.theme-toggle{width:38px;height:38px;padding:8px}.brand{letter-spacing:0}.brand-mark{flex-shrink:0}}
+@media(max-width:360px){.site-header .brand{font-size:10px;gap:6px}.header-actions{gap:8px}.header-home{font-size:10px}}
+@media print{html[data-theme]{--paper:var(--print-paper);--ink:var(--print-ink);--muted:var(--print-muted);--line:var(--print-line);--accent:var(--print-accent);--accent-hover:var(--print-accent);--soft:var(--print-soft);--white:var(--print-paper);--image-bg:var(--print-paper);--note-bg:var(--print-paper);--subtitle:var(--print-muted);color-scheme:light}html[data-theme=dark] .artwork,html[data-theme=dark] .zoom-link,html[data-theme=dark] .source-note{background:var(--print-paper);color:var(--print-ink)}.theme-toggle{display:none}}
+html[data-theme=dark]{--nm-person:#8fb4ea;--nm-place:#e0a76a;--nm-work:#c9a2dc}
+.names-toggle{display:inline-grid;place-items:center;flex-shrink:0;width:40px;height:40px;padding:9px;border:1px solid var(--line);border-radius:5px;background:var(--paper);color:var(--ink);cursor:pointer;line-height:1}
+.names-toggle:hover{border-color:var(--accent);color:var(--accent)}
+.names-toggle svg{display:block;width:20px;height:20px;max-width:none}
+.names-toggle[aria-pressed=true]{border-color:var(--accent);background:var(--accent);color:var(--paper)}
+@media(max-width:720px){.names-toggle{width:38px;height:38px;padding:8px}}
+@media print{.names-toggle{display:none}}
+
+/* Shared mobile navigation: keep labels whole and give every control room. */
+@media screen and (max-width:720px){
+  .site-header{flex-wrap:wrap;align-items:center;gap:8px;padding-top:16px;padding-bottom:16px}
+  .site-header .brand{flex:0 0 100%;font-size:14px;gap:10px;letter-spacing:0;white-space:nowrap;min-height:36px}
+  .site-header .brand-mark{width:30px;height:32px}
+  .site-header .header-actions{width:100%;flex-wrap:wrap;gap:8px}
+  .site-header .header-home{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;padding:6px;font-size:13px;line-height:1.5;white-space:nowrap;text-decoration:none}
+  .site-header .theme-toggle,.site-header .names-toggle{width:44px;height:44px;padding:11px}
+}
+html[data-theme=dark] .artwork.artwork--reference{background:var(--ref-bg)}
+html[data-theme=dark] .artwork--reference .zoom-link{background:transparent}
