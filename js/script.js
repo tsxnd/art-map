@@ -329,3 +329,38 @@
     update();
   });
 })();
+
+// Placeholders for unpublished images: compact strip with a Google image search link.
+(() => {
+  for (const box of document.querySelectorAll(".image-placeholder")) {
+    const figure = box.closest("figure");
+    if (!figure || box.querySelector(".image-search")) continue;
+    const h3 = figure.querySelector("figcaption h3");
+    const noise = /未|確定|同定|確認|個体|保留/;
+    const title = h3 ? h3.textContent
+      .replace(/（[^（）]*）|\([^()]*\)/g, m => noise.test(m) ? " " : m)
+      .replace(/[《》「」『』]/g, " ").trim() : "";
+    let author = "";
+    for (const row of figure.querySelectorAll("figcaption dl > div")) {
+      const dt = row.querySelector("dt");
+      if (dt && /^作者/.test(dt.textContent.trim())) {
+        author = row.querySelector("dd")?.textContent.trim() || "";
+        break;
+      }
+    }
+    if (/不詳|不明|未詳|未確|未同定|確定保留/.test(author)) author = "";
+    const query = [title, author].filter(Boolean).join(" ").replace(/\s+/g, " ");
+    if (!query) continue;
+    const reason = box.querySelector("p");
+    if (reason) box.title = reason.textContent.trim();
+    const link = document.createElement("a");
+    link.className = "image-search";
+    link.href = "https://www.google.com/search?tbm=isch&q=" + encodeURIComponent(query);
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.innerHTML = 'Google画像検索で見る<span aria-hidden="true"> ↗</span>';
+    link.setAttribute("aria-label", query + " をGoogle画像検索で見る（新しいタブ）");
+    box.append(link);
+    box.classList.add("has-search");
+  }
+})();

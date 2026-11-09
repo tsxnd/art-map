@@ -62,3 +62,16 @@ figcaption{padding:18px 20px}figcaption h3{margin:0 0 12px}figcaption dl>div{gri
 .reference-only .artwork--reference .artwork-details{margin:8px 0 6px;padding-top:6px}
 @media(max-width:720px){.artwork-grid.reference-only{margin-left:14px}.reference-only .artwork--reference{grid-template-columns:120px minmax(0,1fr)}.reference-only .artwork--reference .zoom-link{padding:8px}.reference-only .artwork--reference .zoom-link img{max-height:150px}.reference-only .artwork--reference figcaption{padding:10px 12px}}
 @media print{.artwork-grid.reference-only{margin-left:0}}
+
+/* Unpublished images: a slim strip instead of a tall empty box. */
+.image-placeholder,.reference-only .artwork--reference .image-placeholder{min-height:0;height:auto;padding:12px 16px;flex-direction:row;flex-wrap:wrap;justify-content:flex-start;gap:6px 12px;text-align:left;border-bottom:1px dashed var(--line)}
+.image-placeholder>span{font-size:14px}
+.image-placeholder strong{font-size:12px}
+.image-placeholder p{display:none}
+.image-placeholder:not(.has-search) p{display:block;flex-basis:100%;font-size:11px;margin:0}
+.image-search{margin-left:auto;font-size:12px;padding:5px 12px;border:1px solid var(--accent);border-radius:999px;text-decoration:none;white-space:nowrap;background:var(--white)}
+.image-search:hover{background:var(--accent);color:var(--white)}
+.reference-only .artwork--reference .image-placeholder{flex-direction:column;align-items:flex-start;border-bottom:0;align-self:stretch;justify-content:center}
+.reference-only .artwork--reference .image-search{margin-left:0}
+@media(max-width:720px){.image-placeholder{min-height:0}}
+@media print{.image-search{display:none}}
