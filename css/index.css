@@ -54,3 +54,15 @@ html[data-theme=dark] .entry-meta,html[data-theme=dark] .entry-copy>p{color:var(
   .entries[data-view=grid] .entry-copy{padding:0}
   .entries[data-view=grid] .entry-meta{flex-wrap:wrap}
 }
+/* シリーズごとのカラー帯（カード右端） */
+:root{--series-western:#2f4a7a;--series-more-western:#5b8bd0;--series-japanese:#b5452f;--series-techniques:#3f7d5a;--series-practice:#b8862b}
+html[data-theme=dark]{--series-western:#7f9fd6;--series-more-western:#a9c4ef;--series-japanese:#e2856f;--series-techniques:#7fc29c;--series-practice:#e0b866}
+.entry{--series-color:transparent;box-shadow:inset -5px 0 0 var(--series-color)}
+.entry[data-series=western-art]{--series-color:var(--series-western)}
+.entry[data-series=more-western-art]{--series-color:var(--series-more-western)}
+.entry[data-series=japanese-art]{--series-color:var(--series-japanese)}
+.entry[data-series=techniques]{--series-color:var(--series-techniques)}
+.entry[data-series=exam-practice]{--series-color:var(--series-practice)}
+.series-legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 16px;padding:0;list-style:none;font-size:12px;color:var(--muted)}
+.series-legend li{display:flex;align-items:center;gap:6px}
+.series-legend i{display:inline-block;width:5px;height:16px;border-radius:1px;background:var(--series-color)}
