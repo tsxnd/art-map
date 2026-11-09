@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="もっと詳しく知りたい第2回。線遠近法と空気遠近法、フレスコとテンペラの違い、版画の4形式、写真と絵画の関係、コラージュやフロッタージュなど20世紀の技法を学ぶ。">
+<title>西洋絵画の技法｜もっと詳しく知りたい</title><link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" href="../css/theme.css"><script src="../js/theme-init.js"></script><script defer src="../js/theme.js"></script><script defer src="../js/script.js"></script><style id="lesson-feature-styles">
+.contents .toc-group-title{display:block;color:var(--ink);font-weight:bold;font-size:12px;margin:16px 0 5px;overflow-wrap:anywhere}
+.contents .toc-group>ol{display:block;padding-left:12px}
+.chapter-group-heading{font-size:29px;color:var(--ink);border-bottom:1px solid var(--line);padding:28px 0 12px;scroll-margin-top:28px;overflow-wrap:anywhere}
+.chapter-heading h3{font-size:27px;line-height:1.7;letter-spacing:.03em}
+:root{--key-marker:#fff0a0}html[data-theme=dark]{--key-marker:#6b5d1f}
+.lesson-text .key-term{font-weight:700;background:linear-gradient(transparent 58%,var(--key-marker) 58%)}
+.lesson-summary{border-top:1px solid var(--line);margin-top:30px;padding-top:28px;overflow-wrap:anywhere}
+.lesson-summary h2{font-size:25px}.lesson-summary ul{padding-left:1.5em;line-height:2.1}
+@media(max-width:720px){.contents ol:has(>.toc-group){display:block}.chapter-heading h3{font-size:24px}.chapter-group-heading{font-size:26px}}
+</style><style id="lesson-quiz-styles">
+.lesson-quiz{border-top:1px solid var(--line);margin-top:30px;padding-top:28px;overflow-wrap:anywhere}
+.lesson-quiz>h2{font-size:25px;margin-bottom:6px}
+.quiz-lead{font-size:12px;color:var(--muted);line-height:1.9;margin-bottom:8px}
+.quiz-score{font-size:13px;margin:4px 0 0}
+.quiz-score button{font-size:11px;margin-left:10px;border:1px solid var(--line);background:var(--paper);color:var(--muted);padding:2px 8px;cursor:pointer}
+.quiz-type{font-family:inherit;font-weight:normal;font-size:13px;color:var(--muted);letter-spacing:.06em;margin:30px 0 4px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.quiz-type b{color:var(--ink);font-size:15px;margin-right:8px}
+.quiz-item{padding:18px 0;border-bottom:1px dashed var(--line)}
+.quiz-q{font-size:15px;line-height:2}
+.quiz-q .no{font-weight:700;margin-right:8px;color:var(--accent)}
+.quiz-item details{margin-top:8px;font-size:14px;line-height:1.9}
+.quiz-item summary{cursor:pointer;color:var(--accent);font-size:13px;width:fit-content}
+.quiz-answer{margin-top:6px;padding:10px 14px;background:var(--soft)}
+.quiz-answer strong{font-size:15px}
+.quiz-ref{font-size:11px;text-decoration:none;display:inline-block;margin-top:4px}
+.quiz-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+.quiz-choices button{font:inherit;font-size:14px;line-height:1.6;text-align:left;border:1px solid var(--line);background:var(--white);color:var(--ink);padding:9px 12px;cursor:pointer;overflow-wrap:anywhere}
+.quiz-choices button:hover:not(:disabled){border-color:var(--accent)}
+.quiz-choices button:disabled{cursor:default}
+.quiz-choices button.correct{border-color:#2e7d4f;background:color-mix(in srgb,#2e7d4f 12%,var(--white));font-weight:700}
+.quiz-choices button.wrong{border-color:#b23b3b;background:color-mix(in srgb,#b23b3b 10%,var(--white));text-decoration:line-through}
+.quiz-feedback{display:none;margin-top:10px;padding:10px 14px;background:var(--soft);font-size:14px;line-height:1.9}
+.quiz-item.answered .quiz-feedback{display:block}
+.quiz-feedback .verdict{font-weight:700;margin-right:8px}
+.quiz-feedback .ok{color:#2e7d4f}.quiz-feedback .ng{color:#b23b3b}
+html[data-theme=dark] .quiz-feedback .ok{color:#7fd19e}html[data-theme=dark] .quiz-feedback .ng{color:#f08c8c}
+.quiz-figure{display:grid;grid-template-columns:200px minmax(0,1fr);gap:18px;align-items:start}
+.quiz-figure img{width:100%;max-height:220px;object-fit:contain;background:var(--image-bg)}
+@media(max-width:720px){.quiz-choices{grid-template-columns:minmax(0,1fr)}.quiz-figure{grid-template-columns:minmax(0,1fr)}.quiz-figure img{max-height:260px}}
+</style><style id="lesson-diagram-styles">
+.lesson-diagram{margin:0 0 34px;padding:22px 22px 16px;background:var(--white);border:1px solid var(--line);overflow-wrap:anywhere}
+.lesson-diagram>h2{font-size:22px;margin:0 0 18px}
+.dg-label{font-size:11px;letter-spacing:.12em;color:var(--muted);margin:0 0 10px}
+.dg-steps{list-style:none;margin:0 0 26px;padding:0;display:grid;grid-template-columns:repeat(var(--dg-steps),minmax(0,1fr));gap:26px}
+.dg-step{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;font-size:12px;line-height:1.55;color:var(--muted)}
+.dg-step:not(:last-child)::after{content:"";position:absolute;right:-21px;top:58px;width:16px;height:16px;background:var(--accent);clip-path:polygon(0 15%,55% 15%,55% 0,100% 50%,55% 100%,55% 85%,0 85%)}
+.dg-step.goal{border:2px solid var(--accent);background:color-mix(in srgb,var(--accent) 6%,var(--paper));padding:6px 4px 8px}
+.dg-year{font-size:13px;font-weight:700;color:var(--accent);margin-bottom:6px}
+.dg-visual{display:flex;justify-content:center;align-items:center;gap:4px;height:84px;margin-bottom:6px}
+.dg-visual img{width:72px;height:72px;border-radius:50%;object-fit:cover;object-position:50% 18%;border:2px solid var(--line);background:var(--image-bg)}
+.dg-visual img.lead{width:80px;height:80px;border-color:var(--accent)}
+.dg-visual.pair img{width:60px;height:60px}
+.dg-visual img.work{border-radius:0;width:108px;height:72px;object-position:50% 50%}
+.dg-steps[style*="--dg-steps:5"] .dg-visual.pair img.work{width:60px;height:60px}
+.dg-visual{max-width:100%}.dg-visual img{min-width:0;flex-shrink:1}
+.dg-step b{display:block;color:var(--ink);font-size:14px;margin-bottom:2px}
+.dg-step a{color:inherit;text-decoration:none}
+.dg-step a:hover b{color:var(--accent)}
+.dg-compare{display:grid;grid-template-columns:auto minmax(0,1fr) 20px minmax(0,1.2fr);border-top:1px solid var(--line);font-size:14px;line-height:1.6}
+.dg-compare>*{padding:9px 8px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px}
+.dg-compare .head{font-size:11px;letter-spacing:.1em;color:var(--muted);padding-top:6px;padding-bottom:6px}
+.dg-compare .row-label{font-size:12px;font-weight:700;color:var(--muted);white-space:nowrap}
+.dg-compare .old{color:var(--muted)}
+.dg-compare .arrow{color:var(--accent);justify-content:center;padding-left:0;padding-right:0}
+.dg-compare .new{font-weight:700;color:var(--ink);background:color-mix(in srgb,var(--accent) 6%,transparent)}
+.dg-compare .new a{color:inherit;text-decoration:none}
+.dg-compare .new a:hover{color:var(--accent)}
+.dg-compare small{font-weight:normal;color:var(--muted);font-size:12px}
+.dg-compare svg{flex:none;width:34px;height:22px;vertical-align:middle;margin-right:8px}
+.dg-compare .old svg{margin-right:0}
+.dg-credits{font-size:11px;color:var(--muted);margin-top:12px}
+.dg-credits summary{cursor:pointer;width:fit-content}
+.dg-credits ul{margin:6px 0 0;padding-left:1.4em;line-height:1.8}
+.lesson-people{margin:0 0 34px;overflow-wrap:anywhere}
+.lesson-people>h2{font-size:22px;margin:0 0 4px}
+.pp-group{font-size:11px;letter-spacing:.12em;color:var(--muted);margin:16px 0 8px}
+.pp-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px}
+.pp-card{display:grid;grid-template-columns:52px minmax(0,1fr);grid-template-rows:auto 1fr;gap:2px 10px;align-items:start;height:100%;padding:9px 10px;border:1px solid var(--line);background:var(--white);color:var(--ink);text-decoration:none}
+.pp-card:hover{border-color:var(--accent)}
+.pp-face{grid-row:1/3;align-self:center;width:52px;height:52px;border-radius:50%;object-fit:cover;object-position:50% 18%;border:1px solid var(--line);background:var(--image-bg)}
+span.pp-face{display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;color:var(--muted)}
+.pp-crop{overflow:hidden}
+.pp-crop img{width:100%;height:100%;object-fit:cover;display:block}
+.pp-name{font-size:14px;font-weight:700;line-height:1.45}
+.pp-name small{font-weight:normal;font-size:11px;color:var(--accent);margin-left:6px;white-space:nowrap}
+.pp-text{font-size:12px;color:var(--muted);line-height:1.6}
+.lesson-people .dg-credits{margin-top:10px}
+@media(max-width:720px){
+.pp-list{grid-template-columns:minmax(0,1fr)}
+.lesson-diagram{padding:16px 12px 12px}
+.dg-steps{grid-template-columns:minmax(0,1fr);gap:18px}
+.dg-step:not(:last-child)::after{right:auto;left:52px;top:auto;bottom:-17px;transform:rotate(90deg)}
+.dg-step.goal{padding:8px 6px}
+.dg-step>a{width:100%;display:grid;grid-template-columns:120px minmax(0,1fr);grid-template-areas:"v y" "v d";column-gap:10px;align-items:center;text-align:left}
+.dg-step .dg-visual{grid-area:v;height:auto;margin:0}
+.dg-step .dg-year{grid-area:y;margin:0;align-self:end}
+.dg-step .dg-desc{grid-area:d;align-self:start}
+.dg-visual img,.dg-visual img.lead{width:60px;height:60px}
+.dg-visual.pair img{width:50px;height:50px}
+.dg-visual img.work{width:64px;height:44px}
+.dg-visual.pair img.work+img{width:44px;height:44px}
+.dg-compare{font-size:13px}
+.dg-compare>*{padding:8px 5px}
+.dg-compare svg{display:none}
+}
+</style><style id="lesson-pictogram-styles">
+.pict-figure{margin:22px 0 30px;padding:18px 16px 12px;background:var(--soft);border:1px solid var(--line);border-radius:6px}
+.pict-row{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:center;gap:6px 10px}
+.pict-item{flex:0 1 128px;min-width:92px;text-align:center;color:var(--muted)}
+.pict-icon{width:56px;height:56px;margin:0 auto 6px;color:var(--muted)}
+.pict-icon svg{width:100%;height:100%;display:block}
+.pict-item.is-accent .pict-icon{color:var(--accent)}
+.pict-item.is-small .pict-icon{width:44px;height:44px;margin-top:12px}
+.pict-label{font-size:14px;font-weight:700;color:var(--ink);line-height:1.5}
+.pict-sub{display:block;font-size:11px;line-height:1.6;margin-top:2px}
+.pict-op{align-self:center;font-size:22px;color:var(--muted);padding:0 2px;margin-top:-26px}
+.pict-op.is-arrow{color:var(--accent);font-weight:700}
+.pict-figure figcaption{text-align:center;font-size:12px;color:var(--muted);margin-top:12px;padding-top:8px;border-top:1px dashed var(--line)}
+@media(max-width:520px){.pict-op.is-sep{display:none}.pict-item{flex-basis:84px;min-width:72px}.pict-icon{width:46px;height:46px}.pict-label{font-size:13px}}
+@media print{.pict-figure{break-inside:avoid}}
+</style><style id="tx-styles">
+.tx-figure{margin:22px 0 30px;padding:18px 16px 12px;background:var(--white);border:1px solid var(--line);overflow-wrap:anywhere}
+.tx-figure svg{display:block;width:100%;height:auto;max-width:720px;margin:0 auto;color:var(--ink)}
+.tx-figure svg text{fill:currentColor;font-family:inherit}
+.tx-figure svg .mut{fill:var(--muted)}
+.tx-figure svg .acc{fill:var(--accent)}
+.tx-figure svg .ln{stroke:currentColor;fill:none}
+.tx-figure svg .ln-mut{stroke:var(--muted);fill:none}
+.tx-figure svg .ln-acc{stroke:var(--accent);fill:none}
+.tx-figure svg .bg{fill:var(--soft)}
+.tx-figure svg .pap{fill:var(--paper)}
+.tx-figure figcaption{text-align:center;font-size:12px;color:var(--muted);margin-top:12px;padding-top:8px;border-top:1px dashed var(--line)}
+.tx-figure .tx-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}
+.tx-figure .tx-pair>div>p{text-align:center;font-size:13px;font-weight:700;margin:6px 0 0}
+.tx-table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.7;margin:18px 0 28px}
+.tx-table caption{text-align:left;font-size:12px;color:var(--muted);letter-spacing:.08em;margin-bottom:6px}
+.tx-table th,.tx-table td{border-bottom:1px solid var(--line);padding:8px 8px;text-align:left;vertical-align:top}
+.tx-table thead th{font-size:11px;letter-spacing:.1em;color:var(--muted);font-weight:normal;border-bottom:1px solid var(--ink)}
+.tx-table tbody th{white-space:nowrap;font-weight:700}
+.tx-table a{color:inherit}
+.tx-table small{color:var(--muted)}
+.tx-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tx-note{font-size:13px;line-height:1.9;background:var(--soft);border-left:3px solid var(--accent);padding:10px 14px;margin:18px 0 26px}
+.tx-note b{color:var(--accent)}
+.name-break{margin:18px 0 26px;padding:14px 16px;background:var(--white);border:1px solid var(--line)}
+.name-break p.nb-cat{font-size:11px;letter-spacing:.12em;color:var(--muted);margin:0 0 8px}
+.nb-row{display:flex;flex-wrap:wrap;gap:4px 2px;align-items:flex-start}
+.nb-part{display:flex;flex-direction:column;align-items:center;min-width:2.2em}
+.nb-part b{font-size:22px;letter-spacing:.06em;line-height:1.5;padding:0 6px;border-bottom:3px solid var(--accent)}
+.nb-part:nth-child(2n) b{border-bottom-color:var(--ref-accent)}
+.nb-part span{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.4;text-align:center}
+.swatch-row{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 24px}
+.swatch{display:flex;align-items:center;gap:8px;font-size:13px;border:1px solid var(--line);background:var(--white);padding:6px 10px 6px 6px}
+.swatch i{width:28px;height:28px;border:1px solid var(--line);flex:none}
+.dg-table-wrap{margin-bottom:22px}
+@media(max-width:720px){.tx-figure .tx-pair{grid-template-columns:minmax(0,1fr)}.tx-table{font-size:13px}.tx-table th,.tx-table td{padding:7px 5px}.nb-part b{font-size:19px}}
+@media print{.tx-figure{break-inside:avoid}}
+</style></head>
+<body><a class="skip-link" href="#lesson">本文へ進む</a><div class="reading-progress" aria-hidden="true"></div>
+<header class="site-header"><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">美</span>美術史の読書室</a><div class="header-actions"><a class="header-home" href="../index.html">教材一覧</a><button class="theme-toggle" type="button" aria-pressed="false" aria-label="ダークモードに切り替える" title="ダークモードに切り替える"><svg class="theme-icon-sun" aria-hidden="true" focusable="false"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="4" />
+  <path d="M12 2v2" />
+  <path d="M12 20v2" />
+  <path d="m4.93 4.93 1.41 1.41" />
+  <path d="m17.66 17.66 1.41 1.41" />
+  <path d="M2 12h2" />
+  <path d="M20 12h2" />
+  <path d="m6.34 17.66-1.41 1.41" />
+  <path d="m19.07 4.93-1.41 1.41" />
+</svg><svg class="theme-icon-moon" aria-hidden="true" focusable="false"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" />
+</svg></button></div></header>
+<main><header class="lesson-hero"><p class="eyebrow">もっと詳しく知りたい <span>／</span> 教材 T002</p>
+<h1>西洋絵画の技法</h1><p class="lesson-subtitle">遠近法・フレスコとテンペラ・版画・写真、そして20世紀の新しい技法</p>
+<div class="hero-meta"><span>原資料 3ページ</span><span>本文 約16分</span><span>10章・28作品</span></div>
+<div class="original-video"><span>原資料</span><span>改訂版 西洋・日本美術史の基本（美術検定テキスト）</span></div>
+</header>
+<div class="lesson-layout"><aside class="contents"><nav aria-label="章の目次"><p class="contents-label">この教材の章</p><ol><li class="toc-group"><span class="toc-group-title">空間を描く：遠近法</span><ol><li><a href="#linear"><span>01</span>遠近法と一点透視図法</a></li><li><a href="#aerial"><span>02</span>空気遠近法</a></li></ol></li><li class="toc-group"><span class="toc-group-title">壁画と板絵の技法</span><ol><li><a href="#fresco-tempera"><span>03</span>フレスコとテンペラの違い</a></li></ol></li><li class="toc-group"><span class="toc-group-title">版画の形式</span><ol><li><a href="#printtypes"><span>04</span>版画の4形式</a></li><li><a href="#printworks"><span>05</span>作例で見る版画</a></li></ol></li><li class="toc-group"><span class="toc-group-title">写真と絵画</span><ol><li><a href="#camera"><span>06</span>カメラ・オブスクーラから写真の発明へ</a></li><li><a href="#photo-painter"><span>07</span>写真が変えた画家の仕事</a></li></ol></li><li class="toc-group"><span class="toc-group-title">20世紀に登場した技法</span><ol><li><a href="#papiers"><span>08</span>貼る・組み合わせる技法</a></li><li><a href="#chance"><span>09</span>偶然と無意識を呼び込む技法</a></li><li><a href="#massmedia"><span>10</span>シルクスクリーンとミクストメディア</a></li></ol></li></ol></nav><p class="contents-foot">書籍 p.261–263</p></aside>
+<article class="lesson-body" id="lesson"><section class="lesson-diagram" id="diagram" aria-labelledby="diagram-heading">
+<h2 id="diagram-heading">図解：西洋絵画の技法</h2>
+<p class="dg-label">空間を描く二つの遠近法</p><div class="dg-compare"><span class="head"></span><span class="head">線遠近法（一点透視図法）</span><span class="head"></span><span class="head">空気遠近法</span><span class="row-label">しくみ</span><span class="old">平行線を水平線上の消失点に集める</span><span class="arrow" aria-hidden="true">／</span><span class="new"><a href="#aerial">遠くを淡く青みがかって、ぼかして描く</a></span><span class="row-label">代表作</span><span class="old">レオナルド《最後の晩餐》</span><span class="arrow" aria-hidden="true">／</span><span class="new"><a href="#aerial">レオナルド《モナ・リザ》</a></span></div><p class="dg-label" style="margin-top:22px">20世紀に登場した技法の早見表</p><div class="tx-scroll dg-table-wrap"><table class="tx-table"><thead><tr><th>技法</th><th>内容</th><th>使われた運動など</th></tr></thead><tbody><tr><th><a href="#papiers">パピエ・コレ</a></th><td>紙を切って糊で貼る</td><td>キュビスム</td></tr><tr><th><a href="#papiers">コラージュ</a></th><td>雑多な平面素材を貼る</td><td>ダダ・シュルレアリスム・ポップ・アート</td></tr><tr><th><a href="#papiers">モンタージュ</a></th><td>複数のイメージを合成</td><td>ダダ・シュルレアリスム</td></tr><tr><th><a href="#papiers">アサンブラージュ</a></th><td>廃材・既製品で立体を構成</td><td>ダダ・ネオ・ダダ・ポップ・アート</td></tr><tr><th><a href="#chance">オートマティスム</a></th><td>無意識の状態を作品に表す</td><td>シュルレアリスム・抽象表現主義</td></tr><tr><th><a href="#chance">デペイズマン</a></th><td>意外な組み合わせ・ずれ</td><td>シュルレアリスム</td></tr><tr><th><a href="#chance">フロッタージュ</a></th><td>こすって模様を写す</td><td>シュルレアリスム</td></tr><tr><th><a href="#chance">デカルコマニー</a></th><td>絵具を押し付けて写し取る</td><td>シュルレアリスム</td></tr><tr><th><a href="#chance">ドリッピング</a></th><td>絵具をしたたらせる</td><td>抽象表現主義</td></tr><tr><th><a href="#massmedia">シルクスクリーン</a></th><td>孔版。写真から版を作れる</td><td>ポップ・アート</td></tr><tr><th><a href="#massmedia">ミクストメディア</a></th><td>異なる素材の併用</td><td>1960年代以降の美術</td></tr></tbody></table></div></section>
+<section class="lesson-people" id="people" aria-labelledby="people-heading"><h2 id="people-heading">重要用語</h2><p class="pp-group">遠近法・古典技法</p><ul class="pp-list"><li><a class="pp-card" href="#linear"><span class="pp-face" aria-hidden="true">遠</span><span class="pp-name">遠近法<small>えんきんほう</small></span><span class="pp-text">平面の上に奥行きや距離感を表す技法の総称</span></a></li><li><a class="pp-card" href="#linear"><span class="pp-face" aria-hidden="true">一</span><span class="pp-name">一点透視図法<small>いってんとうしずほう</small></span><span class="pp-text">線遠近法の一つ</span></a></li><li><a class="pp-card" href="#linear"><span class="pp-face" aria-hidden="true">消</span><span class="pp-name">消失点<small>しょうしつてん</small></span><span class="pp-text">線遠近法で、奥行き方向の平行線が集まる点</span></a></li><li><a class="pp-card" href="#aerial"><span class="pp-face" aria-hidden="true">空</span><span class="pp-name">空気遠近法<small>くうきえんきんほう</small></span><span class="pp-text">近くのものは濃くはっきりと、遠くのものは淡くぼかし、青みがかった色で描いて奥行きを表す技法</span></a></li><li><a class="pp-card" href="#aerial"><span class="pp-face" aria-hidden="true">ス</span><span class="pp-name">スフマート<small></small></span><span class="pp-text">輪郭線を用いず、色や明暗の境目を煙のようにぼかして描くレオナルド・ダ・ヴィンチの技法</span></a></li><li><a class="pp-card" href="#fresco-tempera"><span class="pp-face" aria-hidden="true">ジ</span><span class="pp-name">ジョルナータ<small></small></span><span class="pp-text">フレスコ画で、その日に描き終えられる範囲だけ漆喰を塗る区画</span></a></li><li><a class="pp-card" href="#fresco-tempera"><span class="pp-face" aria-hidden="true">ハ</span><span class="pp-name">ハッチング<small></small></span><span class="pp-text">細い平行線を重ねて陰影や色の変化を表す技法</span></a></li></ul><p class="pp-group">版画と写真</p><ul class="pp-list"><li><a class="pp-card" href="#printtypes"><span class="pp-face" aria-hidden="true">凸</span><span class="pp-name">凸版<small>とっぱん</small></span><span class="pp-text">版の出っ張った部分にインクを付けて刷る版画</span></a></li><li><a class="pp-card" href="#printtypes"><span class="pp-face" aria-hidden="true">凹</span><span class="pp-name">凹版<small>おうはん</small></span><span class="pp-text">版のへこんだ溝にインクを詰め、プレス機で刷る版画</span></a></li><li><a class="pp-card" href="#printtypes"><span class="pp-face" aria-hidden="true">平</span><span class="pp-name">平版<small>へいはん</small></span><span class="pp-text">版に凹凸を作らず、水と油の反発を利用して刷る版画</span></a></li><li><a class="pp-card" href="#printtypes"><span class="pp-face" aria-hidden="true">孔</span><span class="pp-name">孔版<small>こうはん</small></span><span class="pp-text">版の穴（インクを通す部分）からインクを落として刷る版画</span></a></li><li><a class="pp-card" href="#printworks"><span class="pp-face" aria-hidden="true">エ</span><span class="pp-name">エングレーヴィング<small></small></span><span class="pp-text">ビュランという彫刻刀で銅板に直接線を彫る凹版技法</span></a></li><li><a class="pp-card" href="#printworks"><span class="pp-face" aria-hidden="true">エ</span><span class="pp-name">エッチング<small></small></span><span class="pp-text">防食剤を塗った銅板を針で引っかき、酸で腐食させて溝を作る凹版技法</span></a></li><li><a class="pp-card" href="#camera"><span class="pp-face" aria-hidden="true">カ</span><span class="pp-name">カメラ・オブスクーラ<small></small></span><span class="pp-text">暗い箱や部屋の小さな穴（レンズ）を通った光で、外の景色を壁面に映し出す装置</span></a></li><li><a class="pp-card" href="#camera"><span class="pp-face" aria-hidden="true">ダ</span><span class="pp-name">ダゲレオタイプ<small></small></span><span class="pp-text">ダゲールが完成させ1839年に公表された写真術</span></a></li></ul><p class="pp-group">20世紀の技法</p><ul class="pp-list"><li><a class="pp-card" href="#papiers"><span class="pp-face" aria-hidden="true">パ</span><span class="pp-name">パピエ・コレ<small></small></span><span class="pp-text">フランス語で「糊で貼り付けられた紙」</span></a></li><li><a class="pp-card" href="#papiers"><span class="pp-face" aria-hidden="true">コ</span><span class="pp-name">コラージュ<small></small></span><span class="pp-text">紙・写真・雑誌の切り抜き・紐など平坦な素材を貼り合わせて画面を作る技法</span></a></li><li><a class="pp-card" href="#papiers"><span class="pp-face" aria-hidden="true">モ</span><span class="pp-name">モンタージュ<small></small></span><span class="pp-text">異なる複数のイメージから一つの画面を合成する技法</span></a></li><li><a class="pp-card" href="#papiers"><span class="pp-face" aria-hidden="true">ア</span><span class="pp-name">アサンブラージュ<small></small></span><span class="pp-text">木片・既製品・廃材などを寄せ集めて立体の作品を構成する技法</span></a></li><li><a class="pp-card" href="#chance"><span class="pp-face" aria-hidden="true">オ</span><span class="pp-name">オートマティスム<small></small></span><span class="pp-text">自動記述</span></a></li><li><a class="pp-card" href="#chance"><span class="pp-face" aria-hidden="true">デ</span><span class="pp-name">デペイズマン<small></small></span><span class="pp-text">「異郷に送ること」の意</span></a></li><li><a class="pp-card" href="#chance"><span class="pp-face" aria-hidden="true">フ</span><span class="pp-name">フロッタージュ<small></small></span><span class="pp-text">木目や葉など凹凸のある物の上に紙を当て、上から鉛筆などでこすって模様を写し出す技法</span></a></li><li><a class="pp-card" href="#chance"><span class="pp-face" aria-hidden="true">デ</span><span class="pp-name">デカルコマニー<small></small></span><span class="pp-text">紙やガラスに塗った絵具の上に別の紙を押し付けて剥がし、偶然できた模様を写し取る技法</span></a></li><li><a class="pp-card" href="#chance"><span class="pp-face" aria-hidden="true">ド</span><span class="pp-name">ドリッピング<small></small></span><span class="pp-text">絵具を筆で塗らず、キャンヴァスに直接したたらせたり流したりして描く技法</span></a></li><li><a class="pp-card" href="#massmedia"><span class="pp-face" aria-hidden="true">シ</span><span class="pp-name">シルクスクリーン<small></small></span><span class="pp-text">孔版画の一種</span></a></li><li><a class="pp-card" href="#massmedia"><span class="pp-face" aria-hidden="true">ミ</span><span class="pp-name">ミクストメディア<small></small></span><span class="pp-text">異なる種類の素材を組み合わせて使う技法の総称</span></a></li></ul></section>
+<h2 class="chapter-group-heading" id="group-space">空間を描く：遠近法</h2>
+<section class="chapter" id="linear"><header class="chapter-heading"><span class="chapter-number">01</span><h3>遠近法と一点透視図法</h3><span class="time-link">書籍 p.261</span></header>
+<p class="lesson-text" id="p01">近くのものと遠くのものとの距離感や空間を表す<strong class="key-term" title="遠近法（えんきんほう）：平面の上に奥行きや距離感を表す技法の総称。線遠近法・空気遠近法・色彩遠近法などがある。">遠近法</strong>は、絵画だけに限っても線遠近法、空気遠近法、色彩遠近法などいくつもある。基本として押さえたいのは、線遠近法の一つである「一点透視図法」と「空気遠近法」の二つである。</p>
+<p class="lesson-text" id="p02"><strong class="key-term" title="一点透視図法（いってんとうしずほう）：線遠近法の一つ。奥行き方向の平行線を、水平線（目の高さ）上の一つの消失点に集めて描く図法。">一点透視図法</strong>は、奥へ向かう平行線をすべて水平線上の一つの<strong class="key-term" title="消失点（しょうしつてん）：線遠近法で、奥行き方向の平行線が集まる点。一点透視図法では水平線上に一つ置く。">消失点</strong>に集める図法である。15世紀初めのフィレンツェで建築家ブルネレスキが実験によって原理を示し、アルベルティが『絵画論』（1435年）で理論としてまとめた。<span class="nm-person">レオナルド・ダ・ヴィンチ</span>の<span class="nm-work">《最後の晩餐》</span>は最も有名な作例で、天井や壁の線がキリストの頭部に集まり、見る者の視線を中心へ導く。</p>
+<figure class="tx-figure" role="group" aria-label="一点透視図法の図"><svg viewBox="0 0 640 300" role="img" aria-label="一点透視図法。奥行き方向の線がすべて水平線上の一つの消失点に集まる"><line x1="20" y1="130" x2="620" y2="130" class="ln" stroke-width="2"/><text x="612" y="120" font-size="14" text-anchor="end">水平線（目の高さ）</text><circle cx="380" cy="130" r="5" class="acc"/><text x="380" y="112" font-size="14" text-anchor="middle" class="acc" font-weight="700">消失点</text><rect x="70" y="40" width="130" height="210" class="ln" stroke-width="3"/><path d="M200 40 L260 82 L260 196 L200 250" class="ln" stroke-width="3"/><path d="M70 40 L380 130 M70 250 L380 130 M200 40 L380 130 M200 250 L380 130" class="ln-acc" stroke-width="1.2" stroke-dasharray="5 4"/><rect x="430" y="180" width="160" height="90" class="ln" stroke-width="3"/><path d="M430 180 L452 160 L556 160 L590 180" class="ln" stroke-width="3"/><path d="M430 180 L380 130 M590 180 L380 130 M430 270 L380 130" class="ln-acc" stroke-width="1.2" stroke-dasharray="5 4"/><text x="135" y="290" font-size="13" text-anchor="middle" class="mut">手前の箱</text><text x="510" y="292" font-size="13" text-anchor="middle" class="mut">右下の箱</text></svg><figcaption>一点透視図法。箱の奥行きの線（点線）がすべて一つの消失点に向かう</figcaption></figure>
+<div class="artwork-grid"><figure class="artwork" id="work-lastsupper"><a class="zoom-link" href="../images/T002/lastsupper.jpg" aria-label="最後の晩餐の画像を拡大"><img src="../images/T002/lastsupper.jpg" alt="最後の晩餐" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《最後の晩餐》</h3>
+          <dl><div><dt>作者</dt><dd>レオナルド・ダ・ヴィンチ</dd></div><div><dt>制作時期</dt><dd>1495〜98年頃</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>サンタ・マリア・デッレ・グラツィエ修道院（ミラノ）</dd></div><div><dt>素材・形式</dt><dd>テンペラ・油彩・漆喰壁</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-note">壁画だがフレスコではなく、乾いた壁にテンペラと油彩を併用した実験的な技法で描かれたため、早くから剥落が進んだ。</p><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.261</span></figcaption></figure></div>
+</section>
+<section class="chapter" id="aerial"><header class="chapter-heading"><span class="chapter-number">02</span><h3>空気遠近法</h3><span class="time-link">書籍 p.261</span></header>
+<p class="lesson-text" id="p03"><strong class="key-term" title="空気遠近法（くうきえんきんほう）：近くのものは濃くはっきりと、遠くのものは淡くぼかし、青みがかった色で描いて奥行きを表す技法。大気遠近法ともいう。">空気遠近法</strong>は、近くのものを濃くはっきりと、遠くのものを淡くぼかして描くことで遠近感を表す技法である。遠くの山が青みを帯びてかすんで見えるのは、間にある空気の層が光を散乱させるためで、レオナルドはこの現象を観察し、手稿にも書き残している。<span class="nm-work">《モナ・リザ》</span>の背景では、人物のすぐ後ろの岩山から遠くの山並みへ行くほど、色が青く淡くなっていく。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-monalisa"><a class="zoom-link" href="../images/T002/monalisa.jpg" aria-label="モナ・リザの画像を拡大"><img src="../images/T002/monalisa.jpg" alt="モナ・リザ" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《モナ・リザ》</h3>
+          <dl><div><dt>作者</dt><dd>レオナルド・ダ・ヴィンチ</dd></div><div><dt>制作時期</dt><dd>1503〜06年頃（その後も加筆）</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ルーヴル美術館（パリ）</dd></div><div><dt>素材・形式</dt><dd>油彩・板（ポプラ材）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.261</span></figcaption></figure><figure class="artwork" id="work-monalisa-detail"><a class="zoom-link" href="../images/T002/monalisa-detail.jpg" aria-label="モナ・リザ（背景の部分拡大）の画像を拡大"><img src="../images/T002/monalisa-detail.jpg" alt="モナ・リザ（背景の部分拡大）" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><span class="reference-label">部分拡大</span><h3>《モナ・リザ（背景の部分拡大）》</h3>
+          <dl><div><dt>作者</dt><dd>レオナルド・ダ・ヴィンチ</dd></div><div><dt>制作時期</dt><dd>1503〜06年頃</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ルーヴル美術館（パリ）</dd></div><div><dt>素材・形式</dt><dd>油彩・板</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-note">人物の右側（向かって右）の背景。遠方の山や水面ほど青白く霞んでいる。</p><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.261</span></figcaption></figure></div>
+<p class="tx-note"><b>混同に注意</b>　輪郭線を使わず、色の境目を煙のようにぼかして立体感を出すレオナルドの技法は<strong class="key-term" title="スフマート：輪郭線を用いず、色や明暗の境目を煙のようにぼかして描くレオナルド・ダ・ヴィンチの技法。">スフマート</strong>と呼ばれる。空気遠近法は「遠近感」、スフマートは「ぼかしによる柔らかな肉付け」の技法で、目的が異なる。</p>
+</section>
+<h2 class="chapter-group-heading" id="group-wall">壁画と板絵の技法</h2>
+<section class="chapter" id="fresco-tempera"><header class="chapter-heading"><span class="chapter-number">03</span><h3>フレスコとテンペラの違い</h3><span class="time-link">書籍 p.261</span></header>
+<p class="lesson-text" id="p04">フレスコの語源は、イタリア語で「新鮮な」という意味の fresco である。画面の下地の漆喰が乾かないうちに、水で溶いた顔料で描く。乾く過程で顔料が漆喰にしみ込んで一体となり、堅牢な画面ができあがる。耐久性の高さから多くの壁画に用いられたが、乾いた後は描き直しができない。そのため一日に描ける分だけ漆喰を塗る<strong class="key-term" title="ジョルナータ：フレスコ画で、その日に描き終えられる範囲だけ漆喰を塗る区画。イタリア語で「一日」の意。">ジョルナータ</strong>（一日分の区画）を決めるなど、綿密な作業計画と素早く的確な技術が必要になる。<span class="nm-person">フラ・アンジェリコ</span>がサン・マルコ修道院の階段の上に描いた<span class="nm-work">《受胎告知》</span>は、明るく澄んだ色調のフレスコである。</p>
+<p class="lesson-text" id="p05">テンペラはイタリア語の「テンペラーレ（混ぜ合わせる）」に由来し、顔料を卵黄と混ぜ合わせて絵具を作る（カゼインや膠などと混ぜる場合もある）。乾くと発色が鮮やかな半光沢の画面になる。テンペラ絵具は乾くのが速いうえ、乾燥後は水に溶けなくなるため、色をぼかしたり広い面に均一に塗ったりするのが難しい。そこで細い線を重ねて陰影や色の移り変わりを表す<strong class="key-term" title="ハッチング：細い平行線を重ねて陰影や色の変化を表す技法。乾きの速いテンペラ画で発達した。">ハッチング</strong>という技法が発達した。テンペラは中世・ルネサンス期の板絵のほか、写本画やイコンにも使われている。<span class="nm-person">ボッティチェッリ</span>の<span class="nm-work">《ヴィーナスの誕生》</span>は、キャンヴァスにテンペラで描かれた珍しい大画面である。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-annunciation"><a class="zoom-link" href="../images/T002/angelico.jpg" aria-label="受胎告知の画像を拡大"><img src="../images/T002/angelico.jpg" alt="受胎告知" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《受胎告知》</h3>
+          <dl><div><dt>作者</dt><dd>フラ・アンジェリコ</dd></div><div><dt>制作時期</dt><dd>1440年代</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>サン・マルコ修道院（フィレンツェ）</dd></div><div><dt>素材・形式</dt><dd>フレスコ</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Angelico_-_Annunciation_-_San_Marco_north_corridor.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Angelico_-_Annunciation_-_San_Marco_north_corridor.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.261</span></figcaption></figure><figure class="artwork" id="work-venus"><a class="zoom-link" href="../images/T002/botticelli.jpg" aria-label="ヴィーナスの誕生の画像を拡大"><img src="../images/T002/botticelli.jpg" alt="ヴィーナスの誕生" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《ヴィーナスの誕生》</h3>
+          <dl><div><dt>作者</dt><dd>サンドロ・ボッティチェッリ</dd></div><div><dt>制作時期</dt><dd>1485年頃</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ウフィツィ美術館（フィレンツェ）</dd></div><div><dt>素材・形式</dt><dd>テンペラ・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.261</span></figcaption></figure></div>
+<div class="tx-scroll"><table class="tx-table"><caption>フレスコとテンペラを比べる</caption><thead><tr><th></th><th>フレスコ</th><th>テンペラ</th></tr></thead><tbody><tr><th>語源</th><td>イタリア語「新鮮な」</td><td>イタリア語「混ぜ合わせる」</td></tr><tr><th>描き方</th><td>湿った漆喰に水溶きの顔料で描く</td><td>顔料を卵黄などで練った絵具で描く</td></tr><tr><th>支持体</th><td>壁・天井（漆喰層）</td><td>板・写本・イコンなど</td></tr><tr><th>長所</th><td>漆喰と一体化し堅牢</td><td>発色が鮮やかな半光沢</td></tr><tr><th>難しさ</th><td>乾くと描き直せない</td><td>乾きが速くぼかしにくい→ハッチング</td></tr></tbody></table></div>
+</section>
+<h2 class="chapter-group-heading" id="group-print">版画の形式</h2>
+<section class="chapter" id="printtypes"><header class="chapter-heading"><span class="chapter-number">04</span><h3>版画の4形式</h3><span class="time-link">書籍 p.262</span></header>
+<p class="lesson-text" id="p06">木の板や金属板などに彫った図にインクを付け、紙に写し取った画像や、その技法を<strong class="key-term" title="版画（はんが）：版に付けたインクを紙などに写し取る技法と、その作品。凸版・凹版・平版・孔版の4形式に分けられる。">版画</strong>という。まったく同じ図柄を何枚も刷れることが版画の特徴で、19世紀に写真が実用化されるまでは絵画の複製として、また印刷技術の発達にともなう書物の挿絵としても大きな意味を持っていた。木版画やリトグラフなど種類は多いが、版の形式によって凸版・凹版・平版・孔版の4種類に分けられる。</p>
+<figure class="tx-figure" role="group" aria-label="版画の4形式"><svg viewBox="0 0 680 180" role="img" aria-label="版画の4形式：凹版・凸版・平版・孔版の断面模式図"><g transform="translate(0 0)"><rect x="0" y="0" width="150" height="120" class="bg"/><rect x="10" y="62" width="130" height="34" fill="var(--muted)"/><path d="M20 62 q8 14 16 0z" fill="var(--accent)"/><path d="M50 62 q8 14 16 0z" fill="var(--accent)"/><path d="M80 62 q8 14 16 0z" fill="var(--accent)"/><path d="M110 62 q8 14 16 0z" fill="var(--accent)"/><rect x="10" y="44" width="130" height="8" class="pap" stroke="currentColor" stroke-width=".8"/><text x="75" y="30" font-size="11" text-anchor="middle">溝にインク→プレスで刷る</text><text x="75" y="146" font-size="16" font-weight="700" text-anchor="middle">凹版</text><text x="75" y="166" font-size="11.5" text-anchor="middle" class="mut">エッチング・エングレーヴィングなど</text></g><g transform="translate(176 0)"><rect x="0" y="0" width="150" height="120" class="bg"/><path d="M10 96 V76 H30 V62 H55 V76 H80 V62 H110 V76 H140 V96Z" fill="var(--muted)"/><rect x="30" y="58" width="25" height="4" fill="var(--accent)"/><rect x="80" y="58" width="30" height="4" fill="var(--accent)"/><rect x="10" y="44" width="130" height="8" class="pap" stroke="currentColor" stroke-width=".8"/><text x="75" y="30" font-size="11" text-anchor="middle">凸部にインク→ばれんで刷る</text><text x="75" y="146" font-size="16" font-weight="700" text-anchor="middle">凸版</text><text x="75" y="166" font-size="11.5" text-anchor="middle" class="mut">木版画・紙版画など</text></g><g transform="translate(352 0)"><rect x="0" y="0" width="150" height="120" class="bg"/><rect x="10" y="62" width="130" height="34" fill="var(--muted)"/><rect x="25" y="58" width="30" height="4" fill="var(--accent)"/><rect x="85" y="58" width="35" height="4" fill="var(--accent)"/><rect x="10" y="44" width="130" height="8" class="pap" stroke="currentColor" stroke-width=".8"/><text x="75" y="30" font-size="11" text-anchor="middle">水と油の反発を利用</text><text x="75" y="146" font-size="16" font-weight="700" text-anchor="middle">平版</text><text x="75" y="166" font-size="11.5" text-anchor="middle" class="mut">リトグラフなど</text></g><g transform="translate(528 0)"><rect x="0" y="0" width="150" height="120" class="bg"/><rect x="10" y="88" width="130" height="8" class="pap" stroke="currentColor" stroke-width=".8"/><path d="M10 66 H50 V72 H10Z M90 66 H140 V72 H90Z" fill="var(--muted)"/><line x1="10" y1="69" x2="140" y2="69" stroke="var(--muted)" stroke-dasharray="2 2"/><rect x="54" y="80" width="32" height="8" fill="var(--accent)"/><rect x="60" y="40" width="10" height="24" fill="currentColor" transform="rotate(20 65 52)"/><text x="75" y="30" font-size="11" text-anchor="middle">版の穴からインクを落とす</text><text x="75" y="146" font-size="16" font-weight="700" text-anchor="middle">孔版</text><text x="75" y="166" font-size="11.5" text-anchor="middle" class="mut">シルクスクリーン・ステンシル</text></g></svg><figcaption>版画の4形式の模式図。青がインク、灰色が版</figcaption></figure>
+<div class="tx-scroll"><table class="tx-table"><thead><tr><th>形式</th><th>インクが付く部分</th><th>主な技法</th></tr></thead><tbody><tr><th><strong class="key-term" title="凸版（とっぱん）：版の出っ張った部分にインクを付けて刷る版画。木版画・紙版画など。">凸版</strong></th><td>彫り残した出っ張り</td><td>木版画、紙版画</td></tr><tr><th><strong class="key-term" title="凹版（おうはん）：版のへこんだ溝にインクを詰め、プレス機で刷る版画。エッチング・ドライポイント・エングレーヴィング・メゾチントなど。">凹版</strong></th><td>彫ったり腐食させたりした溝</td><td>エッチング、ドライポイント、エングレーヴィング、メゾチント</td></tr><tr><th><strong class="key-term" title="平版（へいはん）：版に凹凸を作らず、水と油の反発を利用して刷る版画。リトグラフ（石版画）など。">平版</strong></th><td>油性の描画部分（水と油の反発）</td><td>リトグラフ</td></tr><tr><th><strong class="key-term" title="孔版（こうはん）：版の穴（インクを通す部分）からインクを落として刷る版画。シルクスクリーン・ステンシルなど。">孔版</strong></th><td>版に開いた穴を通ったインク</td><td>シルクスクリーン、ステンシル</td></tr></tbody></table></div>
+<p class="tx-note"><b>試験の目のつけどころ</b>　日本の浮世絵（木版画）は凸版、銅版画は凹版。「凸＝出っ張りに付く」「凹＝溝に詰める」と、インクの位置で覚えると取り違えにくい。</p>
+</section>
+<section class="chapter" id="printworks"><header class="chapter-heading"><span class="chapter-number">05</span><h3>作例で見る版画</h3><span class="time-link">書籍 p.262</span></header>
+<p class="lesson-text" id="p07">凹版のうち、<strong class="key-term" title="エングレーヴィング：ビュランという彫刻刀で銅板に直接線を彫る凹版技法。">エングレーヴィング</strong>は銅板にビュランという彫刻刀で直接線を彫り、<strong class="key-term" title="エッチング：防食剤を塗った銅板を針で引っかき、酸で腐食させて溝を作る凹版技法。">エッチング</strong>は防食剤を塗った銅板を針で引っかいてから酸で腐食させて溝を作る。<span class="nm-person">デューラー</span>の<span class="nm-work">《メランコリアI》</span>は緻密なエングレーヴィング、<span class="nm-person">レンブラント</span>の<span class="nm-work">《百グルデン版画》</span>はエッチングにドライポイントとエングレーヴィングを組み合わせた作品である。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-melencolia"><a class="zoom-link" href="../images/T002/melencolia.jpg" aria-label="メランコリアIの画像を拡大"><img src="../images/T002/melencolia.jpg" alt="メランコリアI" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《メランコリアI》</h3>
+          <dl><div><dt>作者</dt><dd>アルブレヒト・デューラー</dd></div><div><dt>制作時期</dt><dd>1514年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>各地の美術館に刷りが現存</dd></div><div><dt>素材・形式</dt><dd>エングレーヴィング（凹版）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Albrecht_Dürer_-_Melencolia_I_-_Google_Art_Project_(427760).jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Albrecht_Dürer_-_Melencolia_I_-_Google_Art_Project_(427760).jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262</span></figcaption></figure><figure class="artwork" id="work-hundred"><a class="zoom-link" href="../images/T002/rembrandt.jpg" aria-label="百グルデン版画の画像を拡大"><img src="../images/T002/rembrandt.jpg" alt="百グルデン版画" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《百グルデン版画》</h3>
+          <dl><div><dt>作者</dt><dd>レンブラント・ファン・レイン</dd></div><div><dt>制作時期</dt><dd>1648年頃</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>メトロポリタン美術館ほか</dd></div><div><dt>素材・形式</dt><dd>エッチング・ドライポイント・エングレーヴィング（凹版）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:The_Hundred_Guilder_Print_MET_DP230429.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="noopener noreferrer">CC0</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:The_Hundred_Guilder_Print_MET_DP230429.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262</span></figcaption></figure></div>
+<p class="lesson-text" id="p08">凸版の代表は木版画である。デューラーの<span class="nm-work">《犀》</span>は、実物を見ずに伝聞とスケッチをもとに描かれた木版画で、繰り返し刷られてヨーロッパ中に犀のイメージを広めた。平版のリトグラフは、1798年頃にドイツのゼネフェルダーが発明した。石灰石の版に油性の描画材で描き、水と油の反発を利用して刷る。<span class="nm-person">トゥールーズ＝ロートレック</span>の<span class="nm-work">《ムーラン・ルージュ、ラ・グーリュ》</span>のような多色刷りのポスターは、19世紀末の街を彩った。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-rhino"><a class="zoom-link" href="../images/T002/rhino.jpg" aria-label="犀の画像を拡大"><img src="../images/T002/rhino.jpg" alt="犀" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《犀》</h3>
+          <dl><div><dt>作者</dt><dd>アルブレヒト・デューラー</dd></div><div><dt>制作時期</dt><dd>1515年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ワシントン・ナショナル・ギャラリーほか</dd></div><div><dt>素材・形式</dt><dd>木版画（凸版）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Albrecht_Dürer,_The_Rhinoceros,_1515,_NGA_47903.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="noopener noreferrer">CC0</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Albrecht_Dürer,_The_Rhinoceros,_1515,_NGA_47903.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262</span></figcaption></figure><figure class="artwork" id="work-goulue"><a class="zoom-link" href="../images/T002/lautrec.jpg" aria-label="ムーラン・ルージュ、ラ・グーリュの画像を拡大"><img src="../images/T002/lautrec.jpg" alt="ムーラン・ルージュ、ラ・グーリュ" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《ムーラン・ルージュ、ラ・グーリュ》</h3>
+          <dl><div><dt>作者</dt><dd>アンリ・ド・トゥールーズ＝ロートレック</dd></div><div><dt>制作時期</dt><dd>1891年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>メトロポリタン美術館ほか</dd></div><div><dt>素材・形式</dt><dd>多色リトグラフ（平版）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Moulin_Rouge-_La_Goulue_MET_DT11780.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="noopener noreferrer">CC0</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Moulin_Rouge-_La_Goulue_MET_DT11780.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262</span></figcaption></figure></div>
+<p class="lesson-text" id="p09">孔版はインクを通す穴を版に作り、上からインクを押し出して刷る形式である。型紙を切り抜くステンシルが最も素朴な形で、日本で着物の型染めに使われた伊勢型紙もその仲間といえる。絹などの細かい網目を版にしたものがシルクスクリーンで、20世紀のポップ・アートで大きな役割を果たした（後述）。</p>
+<div class="artwork-grid"><figure class="artwork artwork--reference" id="work-katagami"><a class="zoom-link" href="../images/T002/katagami.jpg" aria-label="伊勢型紙の画像を拡大"><img src="../images/T002/katagami.jpg" alt="伊勢型紙" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><span class="reference-label">参考作品</span><h3>《伊勢型紙》</h3>
+          <dl><div><dt>作者</dt><dd>作者不詳</dd></div><div><dt>制作時期</dt><dd>19世紀後半〜20世紀前半</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>個人蔵</dd></div><div><dt>素材・形式</dt><dd>渋紙（孔版の型紙）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-note">染色用の型紙。書籍の作例ではなく、孔版（ステンシル）の仕組みを示す参考資料として掲載した。</p><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Ise_Katagami_(伊勢型紙).png" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="noopener noreferrer">CC0</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Ise_Katagami_(伊勢型紙).png" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262</span></figcaption></figure></div>
+</section>
+<h2 class="chapter-group-heading" id="group-photo">写真と絵画</h2>
+<section class="chapter" id="camera"><header class="chapter-heading"><span class="chapter-number">06</span><h3>カメラ・オブスクーラから写真の発明へ</h3><span class="time-link">書籍 p.262</span></header>
+<p class="lesson-text" id="p10">17世紀の画家たちは、写真機の前身である<strong class="key-term" title="カメラ・オブスクーラ：暗い箱や部屋の小さな穴（レンズ）を通った光で、外の景色を壁面に映し出す装置。写真機の前身で、ラテン語で「暗い部屋」の意。">カメラ・オブスクーラ</strong>を利用していた。ラテン語で「暗い部屋」を意味し、暗い箱や部屋に開けた小さな穴やレンズから入った光が、反対側の面に外の景色を逆さまに映し出す。下の図は、16世紀のゲンマ・フリシウスが日食の観測に使ったカメラ・オブスクーラの図である。フェルメールがこの装置を使ったという説もよく知られている。</p>
+<div class="artwork-grid"><figure class="artwork artwork--reference" id="work-camera"><a class="zoom-link" href="../images/T002/camera.jpg" aria-label="カメラ・オブスクーラの図（『天文学と幾何学の光線について』より）の画像を拡大"><img src="../images/T002/camera.jpg" alt="カメラ・オブスクーラの図（『天文学と幾何学の光線について』より）" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><span class="reference-label">参考作品</span><h3>《カメラ・オブスクーラの図（『天文学と幾何学の光線について』より）》</h3>
+          <dl><div><dt>作者</dt><dd>ゲンマ・フリシウス</dd></div><div><dt>制作時期</dt><dd>1545年刊</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>—</dd></div><div><dt>素材・形式</dt><dd>木版挿図</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-note">1544年1月24日の日食を観察した様子とされる。書籍の作例ではない。</p><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:1545_gemma_frisius_-_camera_obscura_-_121704_1_1.png" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:1545_gemma_frisius_-_camera_obscura_-_121704_1_1.png" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262</span></figcaption></figure></div>
+<p class="lesson-text" id="p11">やがて1830年代、フランスのダゲールやイギリスのタルボットらが、像を板や紙の上に化学的に定着させる方法を完成させる。ダゲールの方法は<strong class="key-term" title="ダゲレオタイプ：ダゲールが完成させ1839年に公表された写真術。銀メッキした銅板に像を定着させる。複製はできない。">ダゲレオタイプ</strong>と呼ばれ、1839年に公表された。銀メッキした銅板に直接像を作るため一点ものだった。タルボットのカロタイプは、紙のネガから何枚もプリントを作れた。<span class="nm-work">《タンプル大通り》</span>は露光に数分かかったため、動く馬車や通行人は写らず、靴を磨いてもらっている人物だけが写り込んでいる。</p>
+<div class="artwork-grid"><figure class="artwork" id="work-temple"><a class="zoom-link" href="../images/T002/daguerre.jpg" aria-label="タンプル大通りの画像を拡大"><img src="../images/T002/daguerre.jpg" alt="タンプル大通り" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《タンプル大通り》</h3>
+          <dl><div><dt>作者</dt><dd>ルイ・ジャック・マンデ・ダゲール</dd></div><div><dt>制作時期</dt><dd>1838年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>—</dd></div><div><dt>素材・形式</dt><dd>ダゲレオタイプ</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262</span></figcaption></figure></div>
+</section>
+<section class="chapter" id="photo-painter"><header class="chapter-heading"><span class="chapter-number">07</span><h3>写真が変えた画家の仕事</h3><span class="time-link">書籍 p.262</span></header>
+<p class="lesson-text" id="p12">写真の発明は画家の仕事にも大きな影響を与えた。ミニアチュールと呼ばれる小さな肖像画を描く仕事は写真に取って代わられた。写真を見ながら絵を描くことも広く行われ、テキストはアングルやドラクロワ、クールベも写真を利用したと紹介している。<span class="nm-person">アングル</span>の<span class="nm-work">《泉》</span>は、なめらかな肌の質感と理想化された裸婦像で知られる。</p>
+<p class="lesson-text" id="p13">写真は新しいものの見方も教えてくれた。<span class="nm-person">ドガ</span>は自ら写真を撮り、画面の端で人物を断ち切る構図や、一瞬の動きをとらえた人物表現に、瞬間の映像を生かした。<span class="nm-work">《エトワール》</span>では、舞台を斜め上から見下ろす視点と、舞台袖に半分隠れた人物が、スナップ写真のような臨場感を生んでいる。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-source"><a class="zoom-link" href="../images/T002/ingres.jpg" aria-label="泉の画像を拡大"><img src="../images/T002/ingres.jpg" alt="泉" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《泉》</h3>
+          <dl><div><dt>作者</dt><dd>ジャン＝オーギュスト＝ドミニク・アングル</dd></div><div><dt>制作時期</dt><dd>1856年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>オルセー美術館（パリ）</dd></div><div><dt>素材・形式</dt><dd>油彩・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Jean_Auguste_Dominique_Ingres_-_The_Spring_-_Google_Art_Project_2.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Jean_Auguste_Dominique_Ingres_-_The_Spring_-_Google_Art_Project_2.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262</span></figcaption></figure><figure class="artwork" id="work-etoile"><a class="zoom-link" href="../images/T002/degas.jpg" aria-label="エトワール（舞台の踊り子）の画像を拡大"><img src="../images/T002/degas.jpg" alt="エトワール（舞台の踊り子）" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><h3>《エトワール（舞台の踊り子）》</h3>
+          <dl><div><dt>作者</dt><dd>エドガー・ドガ</dd></div><div><dt>制作時期</dt><dd>1876〜77年頃</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>オルセー美術館（パリ）</dd></div><div><dt>素材・形式</dt><dd>パステル・モノタイプ</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_Ballet_(L&#x27;Étoile).jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_Ballet_(L&#x27;Étoile).jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262</span></figcaption></figure></div>
+</section>
+<h2 class="chapter-group-heading" id="group-20c">20世紀に登場した技法</h2>
+<section class="chapter" id="papiers"><header class="chapter-heading"><span class="chapter-number">08</span><h3>貼る・組み合わせる技法</h3><span class="time-link">書籍 p.262–263</span></header>
+<p class="lesson-text" id="p14"><strong class="key-term" title="パピエ・コレ：フランス語で「糊で貼り付けられた紙」。紙・新聞紙・ボール紙などを切って画面に貼る技法。1912年頃にキュビスムのブラックとピカソが始めた。">パピエ・コレ</strong>はフランス語で「糊で貼り付けられた紙」のことで、紙、新聞紙、ボール紙などを切り、糊で貼り合わせて絵画を作る技法である。1912年頃、キュビスムのブラックとピカソが始め、フアン・グリスも取り入れた。テキストはマティスが晩年に色紙を切り貼りして作った<span class="nm-work">《王の悲しみ》</span>を挙げている。ここでは参考作品としてグリスの作例も示す。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-sorrow"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は1954年没で、日本以外の多くの国で著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《王の悲しみ》</h3>
+          <dl><div><dt>作者</dt><dd>アンリ・マティス</dd></div><div><dt>制作時期</dt><dd>1952年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ポンピドゥー・センター（パリ）</dd></div><div><dt>素材・形式</dt><dd>グワッシュで彩色した紙の切り貼り</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Henri_Matisse" target="_blank" rel="noopener noreferrer">作者・技法の解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.262–263</span></figcaption></figure><figure class="artwork artwork--reference" id="work-sunblind"><a class="zoom-link" href="../images/T002/gris.jpg" aria-label="日よけの画像を拡大"><img src="../images/T002/gris.jpg" alt="日よけ" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><span class="reference-label">参考作品（代わりの作例）</span><h3>《日よけ》</h3>
+          <dl><div><dt>作者</dt><dd>フアン・グリス</dd></div><div><dt>制作時期</dt><dd>1914年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>テート（ロンドン）</dd></div><div><dt>素材・形式</dt><dd>グワッシュ・パピエ・コレ・木炭・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-note">新聞紙や壁紙を貼り込んだキュビスムのパピエ・コレ。書籍の作例ではない。</p><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Juan_Gris_(1887-1927)_-_The_Sunblind_(La_Jalouise)_-_NG5747_-_National_Gallery.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Juan_Gris_(1887-1927)_-_The_Sunblind_(La_Jalouise)_-_NG5747_-_National_Gallery.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262–263</span></figcaption></figure></div>
+<p class="lesson-text" id="p15"><strong class="key-term" title="コラージュ：紙・写真・雑誌の切り抜き・紐など平坦な素材を貼り合わせて画面を作る技法。ダダ、シュルレアリスム、ポップ・アートで用いられた。">コラージュ</strong>は、紙や写真、雑誌の切り抜き、紐といった平坦な素材を貼って二次元の画面を作る技法で、ダダやシュルレアリスム、ポップ・アートで使われた。テキストの作例は、雑誌広告の切り抜きで消費社会を皮肉ったハミルトンの作品である。ダダの時代には、シュヴィッタースが街で拾った切符や包み紙を貼り合わせて「メルツ」と名づけた作品を量産した。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-hamilton"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は2011年没で、著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《いったい何が今日の家庭をこれほどに変え、魅力的にしているのか？》</h3>
+          <dl><div><dt>作者</dt><dd>リチャード・ハミルトン</dd></div><div><dt>制作時期</dt><dd>1956年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>テュービンゲン美術館（ドイツ）</dd></div><div><dt>素材・形式</dt><dd>コラージュ</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Richard_Hamilton_(artist)" target="_blank" rel="noopener noreferrer">作者・技法の解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.262–263</span></figcaption></figure><figure class="artwork artwork--reference" id="work-malkah"><a class="zoom-link" href="../images/T002/schwitters.jpg" aria-label="Mz 245 マル・カー（メルツ素描）の画像を拡大"><img src="../images/T002/schwitters.jpg" alt="Mz 245 マル・カー（メルツ素描）" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><span class="reference-label">参考作品（代わりの作例）</span><h3>《Mz 245 マル・カー（メルツ素描）》</h3>
+          <dl><div><dt>作者</dt><dd>クルト・シュヴィッタース</dd></div><div><dt>制作時期</dt><dd>1921年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>個人蔵（競売記録による）</dd></div><div><dt>素材・形式</dt><dd>コラージュ（色紙・印刷物・厚紙・色チョーク）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-note">ダダのコラージュの作例。書籍の作例ではない。</p><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Kurt_Schwitters_Mz_245_Mal_Kah_Merzzeichnung.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Kurt_Schwitters_Mz_245_Mal_Kah_Merzzeichnung.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262–263</span></figcaption></figure></div>
+<p class="lesson-text" id="p16"><strong class="key-term" title="モンタージュ：異なる複数のイメージから一つの画面を合成する技法。写真で行うものをフォトモンタージュという。">モンタージュ</strong>は、異なる複数のイメージから一つの画面を合成する技法である。写真を使うものはフォトモンタージュと呼ばれ、複数の写真を貼り合わせる方法と、撮影時の多重露光による方法がある。テキストは、建物から宙へ身を投げる姿を合成したクラインの<span class="nm-work">《空中浮遊》</span>を挙げる。複数のネガを組み合わせて一枚の写真を作る試みは19世紀からあり、レイランダーの<span class="nm-work">《人生の二つの道》</span>は32枚のネガから合成された。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-klein"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者・撮影者の著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《空中浮遊（空虚への跳躍）》</h3>
+          <dl><div><dt>作者</dt><dd>イヴ・クライン（撮影：ハリー・シャンク、ジョン・ケンダー）</dd></div><div><dt>制作時期</dt><dd>1960年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>—</dd></div><div><dt>素材・形式</dt><dd>フォトモンタージュ</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Yves_Klein" target="_blank" rel="noopener noreferrer">作者・技法の解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.262–263</span></figcaption></figure><figure class="artwork artwork--reference" id="work-twoways"><a class="zoom-link" href="../images/T002/rejlander.jpg" aria-label="人生の二つの道の画像を拡大"><img src="../images/T002/rejlander.jpg" alt="人生の二つの道" loading="lazy" decoding="async"><span class="zoom-hint">画像を拡大 ＋</span></a>
+          <figcaption><span class="reference-label">参考作品（代わりの作例）</span><h3>《人生の二つの道》</h3>
+          <dl><div><dt>作者</dt><dd>オスカー・ギュスターヴ・レイランダー</dd></div><div><dt>制作時期</dt><dd>1857年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>—</dd></div><div><dt>素材・形式</dt><dd>合成写真（複数のネガから焼き付け）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="image-note">モンタージュの先駆けとなる19世紀の合成写真。書籍の作例ではない。</p><p class="image-credit">画像出典：<a href="https://commons.wikimedia.org/wiki/File:Oscar-gustave-rejlander_two_ways_of_life.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><br><a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank" rel="noopener noreferrer">Public domain</a></p><p class="work-sources">作品情報：<a href="https://commons.wikimedia.org/wiki/File:Oscar-gustave-rejlander_two_ways_of_life.jpg" target="_blank" rel="noopener noreferrer">画像出典・作品情報（Commons）</a></p></div></details>
+          <span class="time-link">書籍 p.262–263</span></figcaption></figure></div>
+<p class="lesson-text" id="p17"><strong class="key-term" title="アサンブラージュ：木片・既製品・廃材などを寄せ集めて立体の作品を構成する技法。ダダ、アール・ブリュット、ネオ・ダダ、ポップ・アートで用いられた。">アサンブラージュ</strong>は、木片や既製品、廃材などの素材を集めて立体の作品を構成する技法で、ダダ、アール・ブリュット、ネオ・ダダ、ポップ・アートで用いられた。テキストは、ピアノを壊した破片を板に貼り付けたアルマンの<span class="nm-work">《ショパンのワーテルロー》</span>を例に挙げる。</p>
+<div class="artwork-grid"><figure class="artwork" id="work-arman"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は2005年没で、著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《ショパンのワーテルロー》</h3>
+          <dl><div><dt>作者</dt><dd>アルマン</dd></div><div><dt>制作時期</dt><dd>1962年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ポンピドゥー・センター（パリ）</dd></div><div><dt>素材・形式</dt><dd>アサンブラージュ（壊したピアノ・板）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Arman" target="_blank" rel="noopener noreferrer">作者・技法の解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.262–263</span></figcaption></figure></div>
+</section>
+<section class="chapter" id="chance"><header class="chapter-heading"><span class="chapter-number">09</span><h3>偶然と無意識を呼び込む技法</h3><span class="time-link">書籍 p.263</span></header>
+<p class="lesson-text" id="p18"><strong class="key-term" title="オートマティスム：自動記述。意識の統制を外し、無意識下の精神状態をそのまま作品に表そうとするシュルレアリスムの方法。戦後アメリカのドリッピングにもつながる。">オートマティスム</strong>（自動記述）はシュルレアリスムの用語で、作家の意識下の精神状態を作品に表すことを意味する。1924年、ブルトンの『シュルレアリスム宣言』で中心的な方法とされた。戦後アメリカ絵画のドリッピングなどの技法もこれに由来する。<span class="nm-person">ミロ</span>の<span class="nm-work">《オランダの室内I》</span>は、17世紀オランダの風俗画を自由に変形させた作品である。</p>
+<p class="lesson-text" id="p19"><strong class="key-term" title="デペイズマン：「異郷に送ること」の意。関連性のないモチーフや非現実的な大きさなど、意外な組み合わせで見る者を驚かせるシュルレアリスムの技法。">デペイズマン</strong>は、本来あるべき場所からものを引き離す「異郷に送ること」を意味し、まったく関連性のないモチーフや、非現実的な大きさなどの意外な組み合わせで作品を構成する技法である。ロートレアモンの詩句「解剖台の上でのミシンと雨傘の偶然の出会い」がその理想とされた。<span class="nm-person">マグリット</span>の<span class="nm-work">《レイプ》</span>は、女性の顔を胴体に置き換えた衝撃的な作例である。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-miro"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は1983年没で、著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《オランダの室内I》</h3>
+          <dl><div><dt>作者</dt><dd>ジョアン・ミロ</dd></div><div><dt>制作時期</dt><dd>1928年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ニューヨーク近代美術館（MoMA）</dd></div><div><dt>素材・形式</dt><dd>油彩・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Joan_Mir%C3%B3" target="_blank" rel="noopener noreferrer">作者・技法の解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.263</span></figcaption></figure><figure class="artwork" id="work-magritte"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は1967年没で、著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《レイプ（陵辱）》</h3>
+          <dl><div><dt>作者</dt><dd>ルネ・マグリット</dd></div><div><dt>制作時期</dt><dd>1934年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>メニル・コレクション（ヒューストン）</dd></div><div><dt>素材・形式</dt><dd>油彩・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Ren%C3%A9_Magritte" target="_blank" rel="noopener noreferrer">作者・技法の解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.263</span></figcaption></figure></div>
+<p class="lesson-text" id="p20"><strong class="key-term" title="フロッタージュ：木目や葉など凹凸のある物の上に紙を当て、上から鉛筆などでこすって模様を写し出す技法。1925年にエルンストが始めた。">フロッタージュ</strong>は、物の表面に紙を当て、上から鉛筆などでこすって模様を浮き出させる技法である。1925年、エルンストが床板の木目をこすり写したことから始まった。テキストの作例<span class="nm-work">《石化した森》</span>は、フロッタージュを油彩に応用し、絵具を削り取って下の凹凸を浮き出させる<strong class="key-term" title="グラッタージュ：絵具を塗った画面の下に凹凸のある物を置き、絵具を削り取って模様を浮き出させる技法。フロッタージュを油彩に応用したもの。">グラッタージュ</strong>で描かれている。</p>
+<p class="lesson-text" id="p21"><strong class="key-term" title="デカルコマニー：紙やガラスに塗った絵具の上に別の紙を押し付けて剥がし、偶然できた模様を写し取る技法。1936年頃ドミンゲスが始めた。">デカルコマニー</strong>は、あらかじめ紙に塗った絵具の上に別の紙を押し付けてから剥がし、偶然生まれたイメージを写し取る技法である。1936年頃にドミンゲスが始め、エルンストも好んで用いた。<strong class="key-term" title="ドリッピング：絵具を筆で塗らず、キャンヴァスに直接したたらせたり流したりして描く技法。ポロックのアクション・ペインティングで知られる。">ドリッピング</strong>は、絵具を直接キャンヴァスにしたたらせて描く技法で、床に広げた画布の上を歩きながら描いた<span class="nm-person">ポロック</span>のアクション・ペインティングで知られる。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-ernst"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は1976年没で、著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《石化した森》</h3>
+          <dl><div><dt>作者</dt><dd>マックス・エルンスト</dd></div><div><dt>制作時期</dt><dd>1927年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>—</dd></div><div><dt>素材・形式</dt><dd>油彩・キャンヴァス（グラッタージュ）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Frottage" target="_blank" rel="noopener noreferrer">フロッタージュの解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.263</span></figcaption></figure><figure class="artwork" id="work-dominguez"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は1957年没で、日本以外の多くの国で著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《無題》</h3>
+          <dl><div><dt>作者</dt><dd>オスカル・ドミンゲス</dd></div><div><dt>制作時期</dt><dd>1936年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>—</dd></div><div><dt>素材・形式</dt><dd>デカルコマニー・紙</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Decalcomania" target="_blank" rel="noopener noreferrer">デカルコマニーの解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.263</span></figcaption></figure><figure class="artwork" id="work-pollock"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は1956年没で、著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《ナンバー1A、1948》</h3>
+          <dl><div><dt>作者</dt><dd>ジャクソン・ポロック</dd></div><div><dt>制作時期</dt><dd>1948年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ニューヨーク近代美術館（MoMA）</dd></div><div><dt>素材・形式</dt><dd>油彩・エナメル・キャンヴァス</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Jackson_Pollock" target="_blank" rel="noopener noreferrer">作者・技法の解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.263</span></figcaption></figure></div>
+</section>
+<section class="chapter" id="massmedia"><header class="chapter-heading"><span class="chapter-number">10</span><h3>シルクスクリーンとミクストメディア</h3><span class="time-link">書籍 p.263</span></header>
+<p class="lesson-text" id="p22"><strong class="key-term" title="シルクスクリーン：孔版画の一種。絹などの細かい網目を版とし、インクを通さない部分をふさいで刷る。写真のネガからも版を作れる。">シルクスクリーン</strong>は孔版画の一種で、絹やナイロンの細かい網目を版にし、インクを通したくない部分をふさいで刷る。写真のネガからも版を簡単に作れるため、広告や報道写真のイメージを大量に複製するのに向いていた。<span class="nm-person">ウォーホル</span>は、<span class="nm-work">《キャンベルスープ缶》</span>で描いた商品のパッケージや、マリリン・モンローの報道写真といった既成のイメージを、1962年以降シルクスクリーンで繰り返し刷り、大量生産・大量消費の社会をそのまま画面に持ち込んだ。</p>
+<p class="lesson-text" id="p23"><strong class="key-term" title="ミクストメディア：異なる種類の素材を組み合わせて使う技法の総称。アサンブラージュも含まれる。1960年代以降の美術で広まった。">ミクストメディア</strong>は、異なる種類の素材を使う技法の総称で、素材ごとの質感を混ぜ合わせて見せる。アサンブラージュもこれに含まれる。<span class="nm-person">ラウシェンバーグ</span>の<span class="nm-work">《モノグラム》</span>は、山羊の剥製に古タイヤをはめ、絵を描いた板の上に置いた「コンバイン・ペインティング」の代表作である。</p>
+<div class="artwork-grid comparison"><figure class="artwork" id="work-campbell"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は1987年没で、著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《キャンベルスープ缶》</h3>
+          <dl><div><dt>作者</dt><dd>アンディ・ウォーホル</dd></div><div><dt>制作時期</dt><dd>1961〜62年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ニューヨーク近代美術館（MoMA）ほか</dd></div><div><dt>素材・形式</dt><dd>合成ポリマー絵具・キャンヴァス（32点組）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Campbell%27s_Soup_Cans" target="_blank" rel="noopener noreferrer">作品の解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.263</span></figcaption></figure><figure class="artwork" id="work-monogram"><div class="image-placeholder"><span aria-hidden="true">―</span><strong>画像の掲載を保留</strong><p>作者は2008年没で、著作権の保護期間中のため画像を掲載していない。</p></div>
+          <figcaption><h3>《モノグラム》</h3>
+          <dl><div><dt>作者</dt><dd>ロバート・ラウシェンバーグ</dd></div><div><dt>制作時期</dt><dd>1955〜59年</dd></div>
+          <div><dt>所在地・所蔵</dt><dd>ストックホルム近代美術館</dd></div><div><dt>素材・形式</dt><dd>コンバイン（山羊の剥製・タイヤ・油彩など）</dd></div></dl><details class="artwork-details"><summary>出典・画像について</summary><div class="artwork-details-body"><p class="caption-type">著作権の保護期間中のため画像は掲載していません</p><p class="work-sources">参考：<a href="https://en.wikipedia.org/wiki/Combine_painting" target="_blank" rel="noopener noreferrer">コンバイン・ペインティングの解説（Wikipedia）</a></p></div></details>
+          <span class="time-link">書籍 p.263</span></figcaption></figure></div>
+</section>
+<section class="lesson-summary" id="lesson-summary" aria-labelledby="lesson-summary-heading"><h2 id="lesson-summary-heading">要点まとめ</h2><ul><li>一点透視図法は奥行きの平行線を水平線上の一つの消失点に集める図法で、代表作はレオナルド《最後の晩餐》。</li><li>空気遠近法は遠くのものを淡く青みがかって描く技法。《モナ・リザ》の背景が典型。輪郭をぼかすスフマートとは区別する。</li><li>フレスコは湿った漆喰に水溶きの顔料で描き堅牢だが描き直せない。テンペラは卵黄で練った絵具で、乾きが速くハッチングが発達した。</li><li>版画は凸版（木版）・凹版（エッチングなど）・平版（リトグラフ）・孔版（シルクスクリーン）の4形式。</li><li>写真の発明（1830年代、ダゲール・タルボット）はミニアチュールの仕事を奪う一方、ドガらに新しい構図をもたらした。</li><li>パピエ・コレはキュビスム、フロッタージュ・デカルコマニー・デペイズマンはシュルレアリスム、ドリッピングは抽象表現主義、シルクスクリーンはポップ・アート。</li></ul></section><section class="lesson-quiz" id="lesson-quiz" aria-labelledby="lesson-quiz-heading"><h2 id="lesson-quiz-heading">確認問題</h2><p class="quiz-score"><span>選択問題：0／3問回答・正解0</span><button type="button" class="quiz-reset">やり直す</button></p><h3 class="quiz-type"><b>A. 一問一答</b></h3><div class="quiz-item"><p class="quiz-q"><span class="no">問1</span>奥行き方向の平行線が集まる、水平線上の点を何というか。</p><details><summary>答えを見る</summary><div class="quiz-answer"><strong>消失点</strong><br>一点透視図法では消失点が一つ。《最後の晩餐》ではキリストの頭部に集まる。<br><a class="quiz-ref" href="#linear">→ 本文で確認（遠近法と一点透視図法）</a></div></details></div><div class="quiz-item"><p class="quiz-q"><span class="no">問2</span>フレスコの語源となったイタリア語の意味は何か。</p><details><summary>答えを見る</summary><div class="quiz-answer"><strong>新鮮な</strong><br>漆喰が乾かない「新鮮な」うちに描くことに由来する。テンペラは「混ぜ合わせる」が語源。<br><a class="quiz-ref" href="#fresco-tempera">→ 本文で確認（フレスコとテンペラの違い）</a></div></details></div><div class="quiz-item"><p class="quiz-q"><span class="no">問3</span>紙を物の表面に当て、上からこすって模様を浮き出させる技法を何というか。</p><details><summary>答えを見る</summary><div class="quiz-answer"><strong>フロッタージュ</strong><br>1925年にエルンストが始めた。油彩に応用したものがグラッタージュ。<br><a class="quiz-ref" href="#chance">→ 本文で確認（偶然と無意識を呼び込む技法）</a></div></details></div><h3 class="quiz-type"><b>B. 4択</b></h3><div class="quiz-item" data-choice><p class="quiz-q"><span class="no">問4</span>リトグラフはどの版画形式に分類されるか。</p><div class="quiz-choices"><button type="button" data-correct>平版</button><button type="button">凸版</button><button type="button">凹版</button><button type="button">孔版</button></div><div class="quiz-feedback"><span class="verdict"></span>正解は平版。水と油の反発を利用し、版に凹凸を作らない。木版画は凸版、エッチングは凹版、シルクスクリーンは孔版。<br><a class="quiz-ref" href="#printtypes">→ 本文で確認（版画の4形式）</a></div></div><div class="quiz-item" data-choice><p class="quiz-q"><span class="no">問5</span>乾きが速くぼかしにくいテンペラ画で発達した、細い線を重ねて描く技法はどれか。</p><div class="quiz-choices"><button type="button" data-correct>ハッチング</button><button type="button">スフマート</button><button type="button">ドリッピング</button><button type="button">グラッタージュ</button></div><div class="quiz-feedback"><span class="verdict"></span>正解はハッチング。スフマートは油彩でぼかすレオナルドの技法。<br><a class="quiz-ref" href="#fresco-tempera">→ 本文で確認（フレスコとテンペラの違い）</a></div></div><div class="quiz-item" data-choice><p class="quiz-q"><span class="no">問6</span>「解剖台の上でのミシンと雨傘の偶然の出会い」に象徴される、意外な組み合わせで作品を構成するシュルレアリスムの技法はどれか。</p><div class="quiz-choices"><button type="button" data-correct>デペイズマン</button><button type="button">オートマティスム</button><button type="button">デカルコマニー</button><button type="button">アサンブラージュ</button></div><div class="quiz-feedback"><span class="verdict"></span>正解はデペイズマン。マグリットの作品がよく例に挙がる。<br><a class="quiz-ref" href="#chance">→ 本文で確認（偶然と無意識を呼び込む技法）</a></div></div><h3 class="quiz-type"><b>C. 図版問題</b></h3><div class="quiz-item"><div class="quiz-figure"><img src="../images/T002/degas.jpg" alt="図版問題の作品" loading="lazy" decoding="async"><div><p class="quiz-q"><span class="no">問7</span>自ら写真を撮り、瞬間の映像を構図や人物表現に生かしたこの作品の作者は誰か。</p><details><summary>答えを見る</summary><div class="quiz-answer"><strong>エドガー・ドガ</strong><br>《エトワール》。舞台を見下ろす視点と、袖に半分隠れた人物が写真的な臨場感を生む。<br><a class="quiz-ref" href="#work-etoile">→ 本文で確認（作品カード）</a></div></details></div></div></div><div class="quiz-item"><div class="quiz-figure"><img src="../images/T002/rhino.jpg" alt="図版問題の作品" loading="lazy" decoding="async"><div><p class="quiz-q"><span class="no">問8</span>デューラーのこの作品は、版画の4形式のうちどれで刷られているか。</p><details><summary>答えを見る</summary><div class="quiz-answer"><strong>凸版（木版画）</strong><br>《犀》（1515年）。実物を見ずに描かれ、繰り返し刷られて広まった。<br><a class="quiz-ref" href="#work-rhino">→ 本文で確認（作品カード）</a></div></details></div></div></div></section>
+<footer class="lesson-footer"><p class="eyebrow">この教材について</p><p>『改訂版 西洋・日本美術史の基本（美術検定テキスト）』Part3「もっと詳しく知りたい」（書籍261〜263ページ）の項目を骨格に、美術検定で問われやすい補足を加えて解説した。図解は書籍の図を参考に新たに作図している。</p>
+
+<p class="caption-type">画像の権利は各画像の出典・ライセンスをご確認ください。著作権の保護期間中の作品は画像を掲載せず、参考リンクのみを示しています。</p><a class="back-link" href="../index.html">← 教材一覧へ</a></footer></article></div></main>
+<footer class="site-footer">美術史の読書室 </footer>
+<dialog class="lightbox" aria-label="作品画像の拡大"><button class="lightbox-close" type="button" aria-label="拡大表示を閉じる">閉じる ×</button><img alt=""><p class="lightbox-caption"></p></dialog>
+</body></html>
